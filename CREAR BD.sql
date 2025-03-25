@@ -1,4 +1,4 @@
-USE ods_tfg;  -- Asegúrate de estar usando la base de datos correcta
+USE ods_tfg;
 GO
 -- Crear la tabla autonomias
 --drop table ods.dim_autonomias
@@ -6,11 +6,13 @@ GO
 --    ID_Autonomia INT IDENTITY(1,1) PRIMARY KEY,  -- Columna autoincremental
 --    Nombre_provincia VARCHAR(100)       -- Columna para el nombre de la provincia
 --);
+--CREAR SCHEMA L1
+--GO
+create schema L1;
+
+--CREAR SCHEMA L2
 --GO
 create schema L2;
-create table ods_tfg.L1.test(
-	id_test INT PRIMARY KEY,
-);
 
 -- Crear la tabla dim_autonomias
 CREATE TABLE dim_autonomias (
@@ -40,8 +42,6 @@ VALUES
 (17, 'La Rioja'),
 (18, 'Ceuta'),
 (19, 'Melilla');
-
-
 
 
 --INSERT
@@ -95,15 +95,3 @@ ALTER COLUMN NombreDiaSemana NVARCHAR(20) NOT NULL;
 
 ALTER TABLE ods.dim_calendario
 ALTER COLUMN DíaDelMes INT NOT NULL;
-
--- Para conocer la informacion de una tabla
--- EXEC sp_columns dim_calendario;
-
-
---ALTER TABLE ods.fact_superficie_solar_instalada
---ADD CONSTRAINT FK_fact_autonomia
---FOREIGN KEY (id_autonomia)
---REFERENCES ods.dim_autonomias(id_autonomia);
-
-
---SELECT * FROM fn_my_permissions('ods.fact_superficie_solar_instalada', 'OBJECT');
