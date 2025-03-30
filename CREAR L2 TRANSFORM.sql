@@ -1,0 +1,15 @@
+--L2 TRANSFORM
+
+--TABLAS INE:
+
+--1)CREAR TABLA L2_INE_ODS_2C1
+CREATE TABLE [L2].L2_INE_ODS_2C1
+(
+  id_L2_ine_ods_2_c_1 BIGINT PRIMARY KEY IDENTITY(1,1)
+, id_anio INT
+, id_mes INT
+, Autonomia VARCHAR(100)
+, id_autonomia INT
+, IPC DECIMAL(10,3)
+)
+;
