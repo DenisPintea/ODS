@@ -46,9 +46,9 @@ VALUES
 
 --INSERT
 
---drop table if exists dim_calendario
+--drop table if exists ods.dim_calendario
 -- Creamos la tabla dim_calendario
-DECLARE @FechaInicio DATE = '2019-01-01'
+DECLARE @FechaInicio DATE = '2018-01-01'
 DECLARE @FechaFin DATE = '2025-12-31'
 
 ;WITH Calendario AS (
