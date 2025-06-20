@@ -1,0 +1,21 @@
+﻿id_L1_fao_ods_15_6_1_5 GeoAreaName TimePeriod  Valor
+---------------------- ----------- ----------- ---------------------------------------
+1                      Spain       2012        319.0
+2                      Spain       2013        371.0
+3                      Spain       2014        437.0
+4                      Spain       2015        493.0
+5                      Spain       2016        551.0
+6                      Spain       2017        599.0
+7                      Spain       2018        665.0
+8                      Spain       2019        722.0
+9                      Spain       2020        813.0
+10                     Spain       2021        1046.0
+11                     Spain       2022        1984.0
+12                     Spain       2023        2371.0
+13                     Spain       2024        2754.0
+14                     NULL        NULL        NULL
+
+(14 rows affected)
+
+
+Completion time: 2025-06-20T16:12:28.0054205+02:00
