@@ -35,6 +35,6 @@ VALUES
 ('2A.1.2', 'Valor añadido de la agricultura como porcentaje del PIB', 'Porcentaje', 'FAO'),
 ('2A.1.3', 'Porcentaje de la agricultura en el gasto publico', 'Porcentaje', 'FAO'),
 ('2.C.1', 'Indicador de anomalías en los precios de los alimentos.', 'Indice', 'FAO'),
-('15.2.1', 'Superficie forestal ertificada conforme a un sistema de certificación verificado de forma independiente', 'Miles de hectareas', 'FAO'),
+('15.2.1', 'Superficie forestal certificada conforme a un sistema de certificación verificado de forma independiente', 'Miles de hectareas', 'FAO'),
 ('15.6.1-5', 'Total de ANTM que transfieren recursos fitogenéticos para la alimentación y la agricultura', 'Numero', 'FAO')
 ;
