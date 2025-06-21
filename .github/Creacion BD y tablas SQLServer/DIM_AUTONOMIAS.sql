@@ -29,4 +29,5 @@ VALUES
 (16, 'Pais Vasco'),
 (17, 'La Rioja'),
 (18, 'Ceuta'),
-(19, 'Melilla');
+(19, 'Melilla'),
+(99, 'Desconocido');
