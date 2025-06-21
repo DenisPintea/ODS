@@ -6,8 +6,9 @@
 CREATE TABLE [L2].L2_INE_ODS_2C1_1
 (
   id_L2_ine_ods_2c1_1 BIGINT PRIMARY KEY IDENTITY(1,1)
-, id_anio INT
-, id_mes INT
+, id_indicador INT
+, id_calendario INT
+, id_autonomia INT
 , IPC DECIMAL(10,3)
 )
 ;
