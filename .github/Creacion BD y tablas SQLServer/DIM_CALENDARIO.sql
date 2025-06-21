@@ -1,51 +1,32 @@
 USE ods_tfg;
 GO
---drop table if exists ods.dim_calendario
--- Creamos la tabla dim_calendario
-DECLARE @FechaInicio DATE = '2018-01-01'
-DECLARE @FechaFin DATE = '2025-12-31'
 
-;WITH Calendario AS (
-    SELECT @FechaInicio AS Fecha
-    UNION ALL
-    SELECT DATEADD(DAY, 1, Fecha)
-    FROM Calendario
-    WHERE DATEADD(DAY, 1, Fecha) <= @FechaFin
-)
-SELECT 
-    Fecha,
-    YEAR(Fecha) AS Año,
-    MONTH(Fecha) AS Mes,
-    DATENAME(MONTH, Fecha) AS MesNombre,
-    DATEPART(QUARTER, Fecha) AS Trimestre,
-    DATEPART(WEEKDAY, Fecha) AS DíaSemana,
-    DATENAME(WEEKDAY, Fecha) AS NombreDiaSemana,
-    DAY(Fecha) AS DíaDelMes
-INTO ods.dim_calendario
-FROM Calendario
-OPTION (MAXRECURSION 0);
+--Crear la dimension calendario
+--drop table if exist dim_calendario
 
--- Forzamos a que las columnas sean no null
-ALTER TABLE ods.dim_calendario
-ALTER COLUMN Fecha DATE NOT NULL;
+CREATE TABLE ods.dim_calendario (
+    id_tabla INT IDENTITY(1,1) PRIMARY KEY,  -- Clave autoincremental
+    anio INT NOT NULL,
+    mes INT NOT NULL,
+    nombre_mes VARCHAR(20) NOT NULL
+);
 
-ALTER TABLE ods.dim_calendario
-ALTER COLUMN Año INT NOT NULL;
+DECLARE @anio INT = 2018;
+DECLARE @fin_anio INT = 2025;
+DECLARE @mes INT;
 
-ALTER TABLE ods.dim_calendario
-ALTER COLUMN Mes INT NOT NULL;
-
-ALTER TABLE ods.dim_calendario
-ALTER COLUMN MesNombre NVARCHAR(20) NOT NULL;
-
-ALTER TABLE ods.dim_calendario
-ALTER COLUMN Trimestre INT NOT NULL;
-
-ALTER TABLE ods.dim_calendario
-ALTER COLUMN DíaSemana INT NOT NULL;
-
-ALTER TABLE ods.dim_calendario
-ALTER COLUMN NombreDiaSemana NVARCHAR(20) NOT NULL;
-
-ALTER TABLE ods.dim_calendario
-ALTER COLUMN DíaDelMes INT NOT NULL;
+WHILE @anio <= @fin_anio
+BEGIN
+    SET @mes = 1;
+    WHILE @mes <= 12
+    BEGIN
+        INSERT INTO ods.dim_calendario (anio, mes, nombre_mes)
+        VALUES (
+            @anio,
+            @mes,
+            DATENAME(MONTH, DATEFROMPARTS(@anio, @mes, 1))
+        );
+        SET @mes = @mes + 1;
+    END;
+    SET @anio = @anio + 1;
+END;
