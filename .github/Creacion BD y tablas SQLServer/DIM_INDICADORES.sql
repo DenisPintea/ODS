@@ -5,8 +5,8 @@ GO
 --drop table if exist dim_indicadores
 
 CREATE TABLE ods.dim_indicadores (
-    id_tabla INT IDENTITY(1,1) PRIMARY KEY,         -- Clave autoincremental
-    id_indicador VARCHAR(10) NOT NULL UNIQUE,		-- Clave subrogada
+    id_tabla INT IDENTITY(1,1) PRIMARY KEY,         -- Clave subrogada autoincremental
+    id_indicador VARCHAR(10) NOT NULL UNIQUE,		-- Clave natural
     descripcion_indicador VARCHAR(200) NOT NULL,    -- Nombre descriptivo del indicador
     unidades VARCHAR(50) NOT NULL,                  -- Unidades de medida (%, índice, etc.)
     fuente VARCHAR(3) NOT NULL                      -- fuente de los datos (INE, FAO)

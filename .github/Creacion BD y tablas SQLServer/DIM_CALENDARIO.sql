@@ -5,9 +5,9 @@ GO
 --drop table if exist dim_calendario
 
 CREATE TABLE ods.dim_calendario (
-    id_tabla INT IDENTITY(1,1) PRIMARY KEY,  -- Clave autoincremental
-    anio INT NOT NULL,
-    mes INT NOT NULL,
+    id_tabla INT IDENTITY(1,1) PRIMARY KEY,  -- Clave subrogada autoincremental
+    anio INT NOT NULL,							--Clave natural año
+    mes INT NOT NULL,							--Clave natural mes
     nombre_mes VARCHAR(20) NOT NULL
 );
 

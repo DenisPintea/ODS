@@ -3,8 +3,8 @@ GO
 -- Crear la tabla autonomias
 --drop table ods.dim_autonomias
 CREATE TABLE ods.dim_autonomias (
-   id_tabla INT IDENTITY(1,1) PRIMARY KEY,			-- Clave autoincremental
-   id_autonomia INT NOT NULL UNIQUE,				-- Columna subrogada
+   id_tabla INT IDENTITY(1,1) PRIMARY KEY,			-- Clave subrogada autoincremental
+   id_autonomia INT NOT NULL UNIQUE,				-- Columna natural
    nombre_autonomia VARCHAR(100) NOT NULL,			-- Columna para el nombre de la provincia
 );
 
