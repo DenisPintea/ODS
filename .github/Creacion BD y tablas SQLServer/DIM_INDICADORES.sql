@@ -31,7 +31,6 @@ VALUES
 ('15.A.1.1', '15', 'AOD y gasto público destinados a la conservación y el uso sostenible de la biodiversidad y los ecosistemas', 'Millones de euros', 'INE'),
 ('15.B.1.1', '15', 'Financiación movilizada asociada destinada a la conservación y el uso sostenible de la biodiversidad y los ecosistemas', 'Millones de euros', 'INE'),
 ('2.5.1.A', '2', 'Recursos fitogenéticos para la alimentación y la agricultura preservados en instalaciones de conservación a medio y largo plazo', 'Numero', 'FAO'),
-('2.1.2', '2', 'Prevalencia de la inseguridad alimentaria moderada o grave entre la población, según la escala de experiencia de inseguridad alimentaria', 'Porcentaje', 'FAO'),
 ('2A.1.1', '2', 'Indice de orientación agrícola para el gasto publico', 'Indice', 'FAO'),
 ('2A.1.2', '2', 'Valor añadido de la agricultura como porcentaje del PIB', 'Porcentaje', 'FAO'),
 ('2A.1.3', '2', 'Porcentaje de la agricultura en el gasto publico', 'Porcentaje', 'FAO'),
