@@ -118,3 +118,18 @@ CREATE TABLE [L2].L2_INE_ODS_2_5_1
 , Valor DECIMAL(10,3)
 )
 ;
+
+--9)CREAR TABLA L2_INE_2_4_1
+IF OBJECT_ID(N'[L2].L2_INE_ODS_2_4_1', N'U') IS NOT NULL
+BEGIN
+    DROP TABLE [L2].L2_INE_ODS_2_4_1;
+END
+CREATE TABLE [L2].L2_INE_ODS_2_4_1
+(
+  id_L2_ine_ods_2_4_1 BIGINT PRIMARY KEY IDENTITY(1,1)
+, id_indicador INT
+, id_calendario INT
+, id_autonomia INT
+, Superficie_agricola DECIMAL(10,3)
+)
+;
