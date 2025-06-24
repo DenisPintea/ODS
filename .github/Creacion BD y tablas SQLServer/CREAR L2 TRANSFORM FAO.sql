@@ -1,12 +1,121 @@
 --TABLAS FAO:
 
 --1)CREAR TABLA L2_FAO_ODS_2C1
+IF OBJECT_ID(N'[L2].L2_FAO_ODS_2C1', N'U') IS NOT NULL
+BEGIN
+    DROP TABLE [L2].L2_FAO_ODS_2C1;
+END
 CREATE TABLE [L2].L2_FAO_ODS_2C1
 (
   id_L2_fao_ods_2c1 BIGINT PRIMARY KEY IDENTITY(1,1)
 , id_indicador INT
 , id_calendario INT
 , id_autonomia INT
-, IPC DECIMAL(10,3)
+, IFPA DECIMAL(10,3)
+)
+;
+
+--2)CREAR TABLA L2_FAO_2_1_2
+IF OBJECT_ID(N'[L2].L2_FAO_ODS_2_1_2', N'U') IS NOT NULL
+BEGIN
+    DROP TABLE [L2].L2_FAO_ODS_2_1_2;
+END
+CREATE TABLE [L2].L2_FAO_ODS_2_1_2
+(
+  id_L2_fao_ods_2_1_2 BIGINT PRIMARY KEY IDENTITY(1,1)
+, id_indicador INT
+, id_calendario INT
+, id_autonomia INT
+, Valor DECIMAL(10,3)
+)
+;
+
+--3)CREAR TABLA L2_FAO_ODS_2A1_1
+IF OBJECT_ID(N'[L2].L2_FAO_ODS_2A1_1', N'U') IS NOT NULL
+BEGIN
+    DROP TABLE [L2].L2_FAO_ODS_2A1_1;
+END
+CREATE TABLE [L2].L2_FAO_ODS_2A1_1
+(
+  id_L2_fao_ods_2a1_1 BIGINT PRIMARY KEY IDENTITY(1,1)
+, id_indicador INT
+, id_calendario INT
+, id_autonomia INT
+, Indice_AOI DECIMAL(10,3)
+)
+;
+
+--4)CREAR TABLA L2_FAO_ODS_2A1_2
+IF OBJECT_ID(N'[L2].L2_FAO_ODS_2A1_2', N'U') IS NOT NULL
+BEGIN
+    DROP TABLE [L2].L2_FAO_ODS_2A1_2;
+END
+CREATE TABLE [L2].L2_FAO_ODS_2A1_2
+(
+  id_L2_fao_ods_2a1_2 BIGINT PRIMARY KEY IDENTITY(1,1)
+, id_indicador INT
+, id_calendario INT
+, id_autonomia INT
+, Valor_aniadido_PIB DECIMAL(10,3)
+)
+;
+
+--5)CREAR TABLA L2_FAO_ODS_2A1_3
+IF OBJECT_ID(N'[L2].L2_FAO_ODS_2A1_3', N'U') IS NOT NULL
+BEGIN
+    DROP TABLE [L2].L2_FAO_ODS_2A1_3;
+END
+CREATE TABLE [L2].L2_FAO_ODS_2A1_3
+(
+  id_L2_fao_ods_2a1_3 BIGINT PRIMARY KEY IDENTITY(1,1)
+, id_indicador INT
+, id_calendario INT
+, id_autonomia INT
+, Porcentaje_gasto_publico DECIMAL(10,3)
+)
+;
+
+--6)CREAR TABLA L2_FAO_2_5_1_A
+IF OBJECT_ID(N'[L2].L2_FAO_ODS_2_5_1_A', N'U') IS NOT NULL
+BEGIN
+    DROP TABLE [L2].L2_FAO_ODS_2_5_1_A;
+END
+CREATE TABLE [L2].L2_FAO_ODS_2_5_1_A
+(
+  id_L2_fao_ods_2_5_1_A BIGINT PRIMARY KEY IDENTITY(1,1)
+, id_indicador INT
+, id_calendario INT
+, id_autonomia INT
+, Valor DECIMAL(10,3)
+)
+;
+
+--7)CREAR TABLA L2_FAO_15_2_1
+IF OBJECT_ID(N'[L2].L2_FAO_ODS_15_2_1', N'U') IS NOT NULL
+BEGIN
+    DROP TABLE [L2].L2_FAO_ODS_15_2_1;
+END
+CREATE TABLE [L2].L2_FAO_ODS_15_2_1
+(
+  id_L2_fao_ods_15_2_1 BIGINT PRIMARY KEY IDENTITY(1,1)
+, id_indicador INT
+, id_calendario INT
+, id_autonomia INT
+, Hectareas DECIMAL(10,3)
+)
+;
+
+--8)CREAR TABLA L2_FAO_15_6_1_5
+IF OBJECT_ID(N'[L2].L2_FAO_ODS_15_6_1_5', N'U') IS NOT NULL
+BEGIN
+    DROP TABLE [L2].L2_FAO_ODS_15_6_1_5;
+END
+CREATE TABLE [L2].L2_FAO_ODS_15_6_1_5
+(
+  id_L2_fao_ods_15_6_1_5 BIGINT PRIMARY KEY IDENTITY(1,1)
+, id_indicador INT
+, id_calendario INT
+, id_autonomia INT
+, ANTM DECIMAL(10,3)
 )
 ;
