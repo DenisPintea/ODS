@@ -148,3 +148,18 @@ CREATE TABLE [L2].L2_INE_ODS_15_2_1_1
 , Hectareas DECIMAL(10,3)
 )
 ;
+
+--11)CREAR TABLA L2_INE_15_2_1_2
+IF OBJECT_ID(N'[L2].L2_INE_ODS_15_2_1_2', N'U') IS NOT NULL
+BEGIN
+    DROP TABLE [L2].L2_INE_ODS_15_2_1_2;
+END
+CREATE TABLE [L2].L2_INE_ODS_15_2_1_2
+(
+  id_L2_ine_ods_15_2_1_2 BIGINT PRIMARY KEY IDENTITY(1,1)
+, id_indicador INT
+, id_calendario INT
+, id_autonomia INT
+, Hectareas DECIMAL(10,3)
+)
+;
