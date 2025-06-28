@@ -1,0 +1,147 @@
+2025/06/28 13:47:53 - Hop - Starting workflow
+2025/06/28 13:48:02 - Hop - Workflow execution has ended
+2025/06/28 14:04:59 - Hop - Processing of pipeline stopped.
+2025/06/28 15:04:11 - Hop - Starting workflow
+2025/06/28 15:04:11 - L1_INE - Start of workflow execution
+2025/06/28 15:04:11 - L1_INE - Starting action [SQLScript crear tablas L1]
+2025/06/28 15:04:11 - L1_INE - Starting action [L1_INE_ODS_2.C.1.1]
+2025/06/28 15:04:11 - L1_INE_ODS_2.C.1.1 - Using run configuration [local]
+2025/06/28 15:04:11 - L1_ODS_2C1_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 15:04:11 - L1_ODS_2C1_1 - Execution started for pipeline [L1_ODS_2C1_1]
+2025/06/28 15:04:11 - P3_L1_ODS_2.C.1.1.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 15:04:11 - P1_CargarExcel_2.C.1.2.0 - Finished processing (I=19, O=0, R=0, W=19, U=0, E=0)
+2025/06/28 15:04:11 - P2_RenombrarColumnas.0 - Finished processing (I=0, O=0, R=19, W=19, U=0, E=0)
+2025/06/28 15:04:11 - P3_L1_ODS_2.C.1.1.0 - Finished processing (I=0, O=19, R=19, W=19, U=0, E=0)
+2025/06/28 15:04:11 - L1_ODS_2C1_1 - Pipeline duration : 0.091 seconds [  0.091" ]
+2025/06/28 15:04:11 - L1_ODS_2C1_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 15:04:11 - L1_INE - Starting action [L1_INE_ODS_2.C.1.2]
+2025/06/28 15:04:11 - L1_INE_ODS_2.C.1.2 - Using run configuration [local]
+2025/06/28 15:04:11 - L1_ODS_2C1_2 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 15:04:11 - L1_ODS_2C1_2 - Execution started for pipeline [L1_ODS_2C1_2]
+2025/06/28 15:04:11 - P2_L1_ODS_2.C.1.2.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 15:04:11 - P1_CargarExcel_2.C.1.2.0 - Finished processing (I=8, O=0, R=0, W=8, U=0, E=0)
+2025/06/28 15:04:11 - P2_L1_ODS_2.C.1.2.0 - Finished processing (I=0, O=8, R=8, W=8, U=0, E=0)
+2025/06/28 15:04:11 - L1_ODS_2C1_2 - Pipeline duration : 0.055 seconds [  0.055" ]
+2025/06/28 15:04:11 - L1_ODS_2C1_2 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 15:04:11 - L1_INE - Starting action [L1_INE_ODS_2.A.1.1]
+2025/06/28 15:04:11 - L1_INE_ODS_2.A.1.1 - Using run configuration [local]
+2025/06/28 15:04:11 - L1_ODS_2A_1_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 15:04:11 - L1_ODS_2A_1_1 - Execution started for pipeline [L1_ODS_2A_1_1]
+2025/06/28 15:04:11 - P2_L1_ODS_2.A.1.1.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 15:04:11 - P1_CargarExcel_2.A.1.1.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 15:04:11 - P2_L1_ODS_2.A.1.1.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 15:04:11 - L1_ODS_2A_1_1 - Pipeline duration : 0.056 seconds [  0.056" ]
+2025/06/28 15:04:11 - L1_ODS_2A_1_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 15:04:11 - L1_INE - Starting action [L1_INE_ODS_2.A.1.2]
+2025/06/28 15:04:11 - L1_INE_ODS_2.A.1.2 - Using run configuration [local]
+2025/06/28 15:04:11 - L1_ODS_2A_1_2 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 15:04:11 - L1_ODS_2A_1_2 - Execution started for pipeline [L1_ODS_2A_1_2]
+2025/06/28 15:04:11 - P3_L1_ODS_2.A.1.2.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 15:04:11 - P1_CargarExcel_2.A.1.2.0 - Finished processing (I=20, O=0, R=0, W=20, U=0, E=0)
+2025/06/28 15:04:11 - P2_RenombrarColumnas.0 - Finished processing (I=0, O=0, R=20, W=20, U=0, E=0)
+2025/06/28 15:04:11 - P3_L1_ODS_2.A.1.2.0 - Finished processing (I=0, O=20, R=20, W=20, U=0, E=0)
+2025/06/28 15:04:11 - L1_ODS_2A_1_2 - Pipeline duration : 0.082 seconds [  0.082" ]
+2025/06/28 15:04:11 - L1_ODS_2A_1_2 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 15:04:11 - L1_INE - Starting action [L1_INE_ODS_2.A.1.3]
+2025/06/28 15:04:11 - L1_INE_ODS_2.A.1.3 - Using run configuration [local]
+2025/06/28 15:04:11 - L1_ODS_2A_1_3 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 15:04:11 - L1_ODS_2A_1_3 - Execution started for pipeline [L1_ODS_2A_1_3]
+2025/06/28 15:04:11 - P2_L1_ODS_2.A.1.3.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 15:04:11 - P1_CargarExcel_2.A.1.3.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 15:04:11 - P2_L1_ODS_2.A.1.3.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 15:04:11 - L1_ODS_2A_1_3 - Pipeline duration : 0.051 seconds [  0.051" ]
+2025/06/28 15:04:11 - L1_ODS_2A_1_3 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 15:04:11 - L1_INE - Starting action [L1_INE_ODS_2.A.2.1_BRUTO]
+2025/06/28 15:04:11 - L1_INE_ODS_2.A.2.1_BRUTO - Using run configuration [local]
+2025/06/28 15:04:11 - L1_ODS_2A_2_AOD_BRUTO - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 15:04:11 - L1_ODS_2A_2_AOD_BRUTO - Execution started for pipeline [L1_ODS_2A_2_AOD_BRUTO]
+2025/06/28 15:04:12 - P2_L1_ODS_2A2_AOD_BRUTO.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 15:04:12 - P1_CargarExcel_2.A.2.1.0 - Finished processing (I=8, O=0, R=0, W=8, U=0, E=0)
+2025/06/28 15:04:12 - P2_L1_ODS_2A2_AOD_BRUTO.0 - Finished processing (I=0, O=8, R=8, W=8, U=0, E=0)
+2025/06/28 15:04:12 - L1_ODS_2A_2_AOD_BRUTO - Pipeline duration : 0.035 seconds [  0.035" ]
+2025/06/28 15:04:12 - L1_ODS_2A_2_AOD_BRUTO - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 15:04:12 - L1_INE - Starting action [L1_INE_ODS_2.A.2.2_NETO]
+2025/06/28 15:04:12 - L1_INE_ODS_2.A.2.2_NETO - Using run configuration [local]
+2025/06/28 15:04:12 - L1_ODS_2A_2_AOD_NETO - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 15:04:12 - L1_ODS_2A_2_AOD_NETO - Execution started for pipeline [L1_ODS_2A_2_AOD_NETO]
+2025/06/28 15:04:12 - P2_L1_ODS_2.A.2_AOD_NETO.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 15:04:12 - P1_CargarExcel_2.A.2.2.0 - Finished processing (I=8, O=0, R=0, W=8, U=0, E=0)
+2025/06/28 15:04:12 - P2_L1_ODS_2.A.2_AOD_NETO.0 - Finished processing (I=0, O=8, R=8, W=8, U=0, E=0)
+2025/06/28 15:04:12 - L1_ODS_2A_2_AOD_NETO - Pipeline duration : 0.073 seconds [  0.073" ]
+2025/06/28 15:04:12 - L1_ODS_2A_2_AOD_NETO - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 15:04:12 - L1_INE - Starting action [L1_INE_ODS_2.5.1]
+2025/06/28 15:04:12 - L1_INE_ODS_2.5.1 - Using run configuration [local]
+2025/06/28 15:04:12 - L1_ODS_2_5_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 15:04:12 - L1_ODS_2_5_1 - Execution started for pipeline [L1_ODS_2_5_1]
+2025/06/28 15:04:12 - P2_L1_ODS_2.5.1.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 15:04:12 - P1_CargarExcel_2.5.1.0 - Finished processing (I=15, O=0, R=0, W=15, U=0, E=0)
+2025/06/28 15:04:12 - P2_L1_ODS_2.5.1.0 - Finished processing (I=0, O=15, R=15, W=15, U=0, E=0)
+2025/06/28 15:04:12 - L1_ODS_2_5_1 - Pipeline duration : 0.063 seconds [  0.063" ]
+2025/06/28 15:04:12 - L1_ODS_2_5_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 15:04:12 - L1_INE - Starting action [L1_INE_ODS_2.4.1]
+2025/06/28 15:04:12 - L1_INE_ODS_2.4.1 - Using run configuration [local]
+2025/06/28 15:04:12 - L1_ODS_2_4_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 15:04:12 - L1_ODS_2_4_1 - Execution started for pipeline [L1_ODS_2_4_1]
+2025/06/28 15:04:12 - P2_L1_ODS_2.4.1.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 15:04:12 - P1_CargarExcel_2.4.1.0 - Finished processing (I=7, O=0, R=0, W=7, U=0, E=0)
+2025/06/28 15:04:12 - P2_L1_ODS_2.4.1.0 - Finished processing (I=0, O=7, R=7, W=7, U=0, E=0)
+2025/06/28 15:04:12 - L1_ODS_2_4_1 - Pipeline duration : 0.05 seconds [  0.050" ]
+2025/06/28 15:04:12 - L1_ODS_2_4_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 15:04:12 - L1_INE - Starting action [L1_INE_ODS_15.2.1]
+2025/06/28 15:04:12 - L1_INE_ODS_15.2.1 - Using run configuration [local]
+2025/06/28 15:04:12 - L1_ODS_15_2_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 15:04:12 - L1_ODS_15_2_1 - Execution started for pipeline [L1_ODS_15_2_1]
+2025/06/28 15:04:12 - P3_L1_ODS_15.2.1.1.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 15:04:12 - P3_L1_ODS_15.2.1.2.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 15:04:12 - P1_CargarExcel_15.2.1.1.0 - Finished processing (I=8, O=0, R=0, W=8, U=0, E=0)
+2025/06/28 15:04:12 - P1_CargarExcel_15.2.1.2.0 - Finished processing (I=8, O=0, R=0, W=8, U=0, E=0)
+2025/06/28 15:04:12 - P3_L1_ODS_15.2.1.2.0 - Finished processing (I=0, O=8, R=8, W=8, U=0, E=0)
+2025/06/28 15:04:12 - P3_L1_ODS_15.2.1.1.0 - Finished processing (I=0, O=8, R=8, W=8, U=0, E=0)
+2025/06/28 15:04:12 - L1_ODS_15_2_1 - Pipeline duration : 0.066 seconds [  0.066" ]
+2025/06/28 15:04:12 - L1_ODS_15_2_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 15:04:12 - L1_INE - Starting action [L1_INE_ODS_15.6.1.5]
+2025/06/28 15:04:12 - L1_INE_ODS_15.6.1.5 - Using run configuration [local]
+2025/06/28 15:04:12 - L1_ODS_15_6_1_5 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 15:04:12 - L1_ODS_15_6_1_5 - Execution started for pipeline [L1_ODS_15_6_1_5]
+2025/06/28 15:04:12 - P2_L1_ODS_15.6.1.5.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 15:04:12 - P1_CargarExcel_15.6.1.5.0 - Finished processing (I=3, O=0, R=0, W=3, U=0, E=0)
+2025/06/28 15:04:12 - P2_L1_ODS_15.6.1.5.0 - Finished processing (I=0, O=3, R=3, W=3, U=0, E=0)
+2025/06/28 15:04:12 - L1_ODS_15_6_1_5 - Pipeline duration : 0.058 seconds [  0.058" ]
+2025/06/28 15:04:12 - L1_ODS_15_6_1_5 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 15:04:12 - L1_INE - Starting action [L1_INE_ODS_15.A.1.1]
+2025/06/28 15:04:12 - L1_INE_ODS_15.A.1.1 - Using run configuration [local]
+2025/06/28 15:04:12 - L1_ODS_15_A_1_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 15:04:12 - L1_ODS_15_A_1_1 - Execution started for pipeline [L1_ODS_15_A_1_1]
+2025/06/28 15:04:12 - P2_L1_ODS_15.A.1.1.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 15:04:12 - P1_CargarExcel_15.A.1.1.0 - Finished processing (I=8, O=0, R=0, W=8, U=0, E=0)
+2025/06/28 15:04:12 - P2_L1_ODS_15.A.1.1.0 - Finished processing (I=0, O=8, R=8, W=8, U=0, E=0)
+2025/06/28 15:04:12 - L1_ODS_15_A_1_1 - Pipeline duration : 0.061 seconds [  0.061" ]
+2025/06/28 15:04:12 - L1_ODS_15_A_1_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 15:04:12 - L1_INE - Starting action [L1_INE_ODS_15.B.1.1]
+2025/06/28 15:04:12 - L1_INE_ODS_15.B.1.1 - Using run configuration [local]
+2025/06/28 15:04:12 - L1_ODS_15_B_1_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 15:04:12 - L1_ODS_15_B_1_1 - Execution started for pipeline [L1_ODS_15_B_1_1]
+2025/06/28 15:04:12 - P2_L1_ODS_15.B.1.1.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 15:04:12 - P1_CargarExcel_15.B.1.1.0 - Finished processing (I=5, O=0, R=0, W=5, U=0, E=0)
+2025/06/28 15:04:12 - P2_L1_ODS_15.B.1.1.0 - Finished processing (I=0, O=5, R=5, W=5, U=0, E=0)
+2025/06/28 15:04:12 - L1_ODS_15_B_1_1 - Pipeline duration : 0.055 seconds [  0.055" ]
+2025/06/28 15:04:12 - L1_ODS_15_B_1_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 15:04:12 - L1_INE - Starting action [Fin-Exito]
+2025/06/28 15:04:12 - L1_INE - Finished action [Fin-Exito] (result=[true])
+2025/06/28 15:04:12 - L1_INE - Finished action [L1_INE_ODS_15.B.1.1] (result=[true])
+2025/06/28 15:04:12 - L1_INE - Finished action [L1_INE_ODS_15.A.1.1] (result=[true])
+2025/06/28 15:04:12 - L1_INE - Finished action [L1_INE_ODS_15.6.1.5] (result=[true])
+2025/06/28 15:04:12 - L1_INE - Finished action [L1_INE_ODS_15.2.1] (result=[true])
+2025/06/28 15:04:12 - L1_INE - Finished action [L1_INE_ODS_2.4.1] (result=[true])
+2025/06/28 15:04:12 - L1_INE - Finished action [L1_INE_ODS_2.5.1] (result=[true])
+2025/06/28 15:04:12 - L1_INE - Finished action [L1_INE_ODS_2.A.2.2_NETO] (result=[true])
+2025/06/28 15:04:12 - L1_INE - Finished action [L1_INE_ODS_2.A.2.1_BRUTO] (result=[true])
+2025/06/28 15:04:12 - L1_INE - Finished action [L1_INE_ODS_2.A.1.3] (result=[true])
+2025/06/28 15:04:12 - L1_INE - Finished action [L1_INE_ODS_2.A.1.2] (result=[true])
+2025/06/28 15:04:12 - L1_INE - Finished action [L1_INE_ODS_2.A.1.1] (result=[true])
+2025/06/28 15:04:12 - L1_INE - Finished action [L1_INE_ODS_2.C.1.2] (result=[true])
+2025/06/28 15:04:12 - L1_INE - Finished action [L1_INE_ODS_2.C.1.1] (result=[true])
+2025/06/28 15:04:12 - L1_INE - Finished action [SQLScript crear tablas L1] (result=[true])
+2025/06/28 15:04:12 - L1_INE - Workflow execution finished
+2025/06/28 15:04:12 - Hop - Workflow execution has ended
+2025/06/28 15:04:12 - L1_INE - Workflow duration : 0.898 seconds [  0.898" ]
