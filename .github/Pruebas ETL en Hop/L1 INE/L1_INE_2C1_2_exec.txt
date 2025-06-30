@@ -1,0 +1,98 @@
+2025/06/28 15:11:29 - Hop - Pipeline opened.
+2025/06/28 15:11:29 - Hop - Launching pipeline [L1_ODS_2C1_2]...
+2025/06/28 15:11:29 - Hop - Started the pipeline execution.
+2025/06/28 15:11:29 - L1_ODS_2C1_2 - nr of transforms to run : 2  , nr of hops : 1
+2025/06/28 15:11:29 - L1_ODS_2C1_2 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 15:11:29 - L1_ODS_2C1_2 - Not running a unit test...
+2025/06/28 15:11:29 - L1_ODS_2C1_2 - Execution started for pipeline [L1_ODS_2C1_2]
+2025/06/28 15:11:29 - L1_ODS_2C1_2 - I found 2 different transforms to launch.
+2025/06/28 15:11:29 - L1_ODS_2C1_2 - Allocating rowsets...
+2025/06/28 15:11:29 - L1_ODS_2C1_2 -  Allocating rowsets for transform 0 --> P1_CargarExcel_2.C.1.2
+2025/06/28 15:11:29 - L1_ODS_2C1_2 -   prevcopies = 1, nextcopies=1
+2025/06/28 15:11:29 - L1_ODS_2C1_2 - Pipeline allocated new rowset [P1_CargarExcel_2.C.1.2.0 - P2_L1_ODS_2.C.1.2.0]
+2025/06/28 15:11:29 - L1_ODS_2C1_2 -  Allocated 1 rowsets for transform 0 --> P1_CargarExcel_2.C.1.2
+2025/06/28 15:11:29 - L1_ODS_2C1_2 -  Allocating rowsets for transform 1 --> P2_L1_ODS_2.C.1.2
+2025/06/28 15:11:29 - L1_ODS_2C1_2 -  Allocated 1 rowsets for transform 1 --> P2_L1_ODS_2.C.1.2
+2025/06/28 15:11:29 - L1_ODS_2C1_2 - Allocating Transforms & TransformData...
+2025/06/28 15:11:29 - L1_ODS_2C1_2 -  Pipeline is about to allocate transform [P1_CargarExcel_2.C.1.2] of type [ExcelInput]
+2025/06/28 15:11:29 - L1_ODS_2C1_2 -   Transform has nrcopies=1
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Starting allocation of buffers & new threads...
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Transform info: nrinput=0 nroutput=1
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - output rel. is 1:1
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Found output rowset [P1_CargarExcel_2.C.1.2.0 - P2_L1_ODS_2.C.1.2.0]
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Finished dispatching
+2025/06/28 15:11:29 - L1_ODS_2C1_2 -  Pipeline has allocated a new transform: [P1_CargarExcel_2.C.1.2].0
+2025/06/28 15:11:29 - L1_ODS_2C1_2 -  Pipeline is about to allocate transform [P2_L1_ODS_2.C.1.2] of type [TableOutput]
+2025/06/28 15:11:29 - L1_ODS_2C1_2 -   Transform has nrcopies=1
+2025/06/28 15:11:29 - P2_L1_ODS_2.C.1.2.0 - Starting allocation of buffers & new threads...
+2025/06/28 15:11:29 - P2_L1_ODS_2.C.1.2.0 - Transform info: nrinput=1 nroutput=0
+2025/06/28 15:11:29 - P2_L1_ODS_2.C.1.2.0 - Got previous transform from [P2_L1_ODS_2.C.1.2] #0 --> P1_CargarExcel_2.C.1.2
+2025/06/28 15:11:29 - P2_L1_ODS_2.C.1.2.0 - input rel is 1:1
+2025/06/28 15:11:29 - P2_L1_ODS_2.C.1.2.0 - Found input rowset [P1_CargarExcel_2.C.1.2.0 - P2_L1_ODS_2.C.1.2.0]
+2025/06/28 15:11:29 - P2_L1_ODS_2.C.1.2.0 - Finished dispatching
+2025/06/28 15:11:29 - L1_ODS_2C1_2 -  Pipeline has allocated a new transform: [P2_L1_ODS_2.C.1.2].0
+2025/06/28 15:11:29 - L1_ODS_2C1_2 - Initialising 2 transforms...
+2025/06/28 15:11:29 - SQL_SERVER - New database connection defined
+2025/06/28 15:11:29 - SQL_SERVER - Connecting to database using URL: jdbc:sqlserver://localhost:1433;databaseName=ods_tfg;integratedSecurity=true;encrypt=false
+2025/06/28 15:11:29 - P2_L1_ODS_2.C.1.2.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 15:11:29 - SQL_SERVER - Auto commit off
+2025/06/28 15:11:29 - L1_ODS_2C1_2 - Transform [P1_CargarExcel_2.C.1.2.0] initialized flawlessly.
+2025/06/28 15:11:29 - L1_ODS_2C1_2 - Transform [P2_L1_ODS_2.C.1.2.0] initialized flawlessly.
+2025/06/28 15:11:29 - L1_ODS_2C1_2 - Data Set enabled? false
+2025/06/28 15:11:29 - L1_ODS_2C1_2 - Pipeline has allocated 2 threads and 1 rowsets.
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Starting to run...
+2025/06/28 15:11:29 - P2_L1_ODS_2.C.1.2.0 - Starting to run...
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Opening openFile #0 : D:\hop_projects\entorno-dev\L1_STAGE\Datasets_L1_INE\SDG_2C1_2_IPC_Pan_Cereal.xlsx
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Get sheet #0.0
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Get line #2 from sheet #0.0
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Read line with 13 cells
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Converted line to row #2 : [2025], [130.618], [130.892], [131.28], [131.667], [132.311], [null], [null], [null], [null], [null], [null], [null]
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Get sheet #0.0
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Get line #3 from sheet #0.0
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Read line with 13 cells
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Converted line to row #3 : [2024], [128.659], [128.529], [128.617], [129.53], [129.606], [129.691], [129.18], [128.676], [128.286], [130.185], [129.985], [130.04]
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Get sheet #0.0
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Get line #4 from sheet #0.0
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Read line with 13 cells
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Converted line to row #4 : [2023], [119.736], [121.901], [123.226], [123.543], [124.064], [124.501], [125.428], [125.681], [126.327], [128.002], [128.149], [128.082]
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Get sheet #0.0
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Get line #5 from sheet #0.0
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Read line with 13 cells
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Converted line to row #5 : [2022], [103.691], [104.461], [105.732], [109.524], [110.883], [112.966], [113.246], [113.795], [114.354], [117.065], [117.553], [119.409]
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Get sheet #0.0
+2025/06/28 15:11:29 - P2_L1_ODS_2.C.1.2.0 - Prepared statement : INSERT INTO [L1].L1_INE_ODS_2C1_2 (Año, M01, M02, M03, M04, M05, M06, M07, M08, M09, M10, M11, M12) VALUES ( ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?,  ?)
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Get line #6 from sheet #0.0
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Read line with 13 cells
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Converted line to row #6 : [2021], [98.912], [98.926], [98.941], [99.252], [99.685], [99.701], [99.455], [99.747], [99.675], [101.058], [101.645], [103.003]
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Get sheet #0.0
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Get line #7 from sheet #0.0
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Read line with 13 cells
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Converted line to row #7 : [2020], [97.441], [97.601], [97.725], [99.189], [99.153], [98.865], [97.992], [98.085], [98.198], [99.63], [98.635], [98.29]
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Get sheet #0.0
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Get line #8 from sheet #0.0
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Read line with 13 cells
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Converted line to row #8 : [2019], [95.44], [95.669], [95.304], [95.284], [95.705], [96.113], [95.835], [95.969], [95.865], [97.394], [97.329], [97.197]
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Get sheet #0.0
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Get line #9 from sheet #0.0
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Read line with 13 cells
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Converted line to row #9 : [2018], [94.545], [94.353], [94.441], [94.597], [95.256], [95.741], [95.005], [95.027], [95.051], [96.269], [95.718], [95.547]
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Get sheet #0.0
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Out of index error: move to next sheet!
+2025/06/28 15:11:29 - P2_L1_ODS_2.C.1.2.0 - Written row: [2025], [130.618], [130.892], [131.28], [131.667], [132.311], [null], [null], [null], [null], [null], [null], [null]
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - No more files to be processed! (1 files done)
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Signaling 'output done' to 1 output rowsets.
+2025/06/28 15:11:29 - P1_CargarExcel_2.C.1.2.0 - Finished processing (I=8, O=0, R=0, W=8, U=0, E=0)
+2025/06/28 15:11:29 - P2_L1_ODS_2.C.1.2.0 - Written row: [2024], [128.659], [128.529], [128.617], [129.53], [129.606], [129.691], [129.18], [128.676], [128.286], [130.185], [129.985], [130.04]
+2025/06/28 15:11:29 - P2_L1_ODS_2.C.1.2.0 - Written row: [2023], [119.736], [121.901], [123.226], [123.543], [124.064], [124.501], [125.428], [125.681], [126.327], [128.002], [128.149], [128.082]
+2025/06/28 15:11:29 - P2_L1_ODS_2.C.1.2.0 - Written row: [2022], [103.691], [104.461], [105.732], [109.524], [110.883], [112.966], [113.246], [113.795], [114.354], [117.065], [117.553], [119.409]
+2025/06/28 15:11:29 - P2_L1_ODS_2.C.1.2.0 - Written row: [2021], [98.912], [98.926], [98.941], [99.252], [99.685], [99.701], [99.455], [99.747], [99.675], [101.058], [101.645], [103.003]
+2025/06/28 15:11:29 - P2_L1_ODS_2.C.1.2.0 - Written row: [2020], [97.441], [97.601], [97.725], [99.189], [99.153], [98.865], [97.992], [98.085], [98.198], [99.63], [98.635], [98.29]
+2025/06/28 15:11:29 - P2_L1_ODS_2.C.1.2.0 - Written row: [2019], [95.44], [95.669], [95.304], [95.284], [95.705], [96.113], [95.835], [95.969], [95.865], [97.394], [97.329], [97.197]
+2025/06/28 15:11:29 - P2_L1_ODS_2.C.1.2.0 - Written row: [2018], [94.545], [94.353], [94.441], [94.597], [95.256], [95.741], [95.005], [95.027], [95.051], [96.269], [95.718], [95.547]
+2025/06/28 15:11:29 - SQL_SERVER - Commit on database connection [SQL_SERVER]
+2025/06/28 15:11:29 - P2_L1_ODS_2.C.1.2.0 - Signaling 'output done' to 0 output rowsets.
+2025/06/28 15:11:29 - SQL_SERVER - Commit on database connection [SQL_SERVER]
+2025/06/28 15:11:29 - SQL_SERVER - Connection to database closed!
+2025/06/28 15:11:29 - P2_L1_ODS_2.C.1.2.0 - Finished processing (I=0, O=8, R=8, W=8, U=0, E=0)
+2025/06/28 15:11:29 - L1_ODS_2C1_2 - Pipeline duration : 0.072 seconds [  0.072" ]
+2025/06/28 15:11:29 - L1_ODS_2C1_2 - Execution finished on a local pipeline engine with run configuration 'local'

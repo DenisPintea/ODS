@@ -1,0 +1,27 @@
+﻿id_tabla    id_autonomia nombre_autonomia
+----------- ------------ ----------------------------------------------------------------------------------------------------
+1           1            Andalucia
+2           2            Aragon
+3           3            Asturias
+4           4            Islas Baleares
+5           5            Canarias
+6           6            Cantabria
+7           7            Castilla y Leon
+8           8            Castilla La Mancha
+9           9            Catalunya
+10          10           Comunidad Valenciana
+11          11           Extremadura
+12          12           Galicia
+13          13           Madrid
+14          14           Murcia
+15          15           Navarra
+16          16           Pais Vasco
+17          17           La Rioja
+18          18           Ceuta
+19          19           Melilla
+20          99           Desconocido
+
+(20 rows affected)
+
+
+Completion time: 2025-06-28T11:53:28.5687310+02:00

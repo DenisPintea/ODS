@@ -1,0 +1,238 @@
+-- 1
+AOD_Bruto = 
+CALCULATE(
+    AVERAGE('L3 hechos_indicadores'[valor]),
+    'L3 hechos_indicadores'[id_fact_indicador] = 3,
+    REMOVEFILTERS('ods dim_calendario'[nombre_mes])
+)
+
+-- 2
+AOD_Neto = 
+CALCULATE(
+    AVERAGE('L3 hechos_indicadores'[valor]),
+    'L3 hechos_indicadores'[id_fact_indicador] = 4,
+    REMOVEFILTERS('ods dim_calendario'[nombre_mes])
+)
+
+-- 3
+ClasificacionAnomalia_2C1_FAO_Medida = 
+VAR indicadorActual = SELECTEDVALUE('ods dim_indicadores'[id_tabla])
+VAR fuenteActual = SELECTEDVALUE('ods dim_indicadores'[fuente])
+VAR valorActual = 
+    CALCULATE(
+        SELECTEDVALUE('L3 hechos_indicadores'[valor]),
+        REMOVEFILTERS('ods dim_autonomias'[nombre_autonomia])
+    )
+
+RETURN
+IF(
+    indicadorActual = 19 && fuenteActual = "FAO",
+    SWITCH(
+        TRUE(),
+        valorActual >= 2, "Anomalía grave, precios elevados",
+        valorActual >= 1, "Anomalía moderada, posible tension de los precios",
+        valorActual <= -2, "Anomalía grave, precios muy bajos",
+        valorActual <= -1, "Anomalía moderada, posible caida de los precios",
+        valorActual == BLANK(), "Sin datos",
+        "Sin anomalía, comportamiento normal"
+    ),
+    BLANK()
+)
+
+-- 4
+IFPA_2C1_FAO = 
+VAR indicadorActual = SELECTEDVALUE('ods dim_indicadores'[id_tabla])
+VAR fuenteActual = SELECTEDVALUE('ods dim_indicadores'[fuente])
+
+RETURN
+IF(
+    indicadorActual = 19 && fuenteActual = "FAO",
+    CALCULATE(
+        SELECTEDVALUE('L3 hechos_indicadores'[valor]),
+        REMOVEFILTERS('ods dim_autonomias'[nombre_autonomia])
+    ),
+    BLANK()
+)
+
+-- 5
+Indicador_15_2_1_1_INE = 
+CALCULATE(
+    AVERAGE('L3 hechos_indicadores'[valor]),
+    'L3 hechos_indicadores'[id_fact_indicador] = 10,
+    REMOVEFILTERS('ods dim_calendario'[nombre_mes]
+)
+
+)
+
+-- 6
+Indicador_15_2_1_2_INE = 
+CALCULATE(
+    AVERAGE('L3 hechos_indicadores'[valor]),
+    'L3 hechos_indicadores'[id_fact_indicador] = 11,
+    REMOVEFILTERS('ods dim_calendario'[nombre_mes]
+)
+
+)
+
+-- 7
+Indicador_15_2_1_FAO = 
+CALCULATE(
+    AVERAGE('L3 hechos_indicadores'[valor]),
+    'L3 hechos_indicadores'[id_fact_indicador] = 20,
+    REMOVEFILTERS('ods dim_calendario'[nombre_mes])
+
+)
+
+-- 8
+Indicador_15_6_1_5_FAO = 
+CALCULATE(
+    MAX('L3 hechos_indicadores'[valor]),
+    'L3 hechos_indicadores'[id_fact_indicador] = 21,
+    REMOVEFILTERS('ods dim_calendario'[nombre_mes])
+)
+
+-- 9
+Indicador_15_6_1_5_INE = 
+CALCULATE(
+    MAX('L3 hechos_indicadores'[valor]),
+    'L3 hechos_indicadores'[id_fact_indicador] = 12,
+    REMOVEFILTERS('ods dim_calendario'[nombre_mes])
+)
+
+-- 10
+Indicador_15_A_1_1_INE = 
+CALCULATE(
+    AVERAGE('L3 hechos_indicadores'[valor]),
+    'L3 hechos_indicadores'[id_fact_indicador] = 13,
+    REMOVEFILTERS('ods dim_calendario'[nombre_mes])
+)
+
+-- 11
+Indicador_15_B_1_1_INE = 
+CALCULATE(
+    AVERAGE('L3 hechos_indicadores'[valor]),
+    'L3 hechos_indicadores'[id_fact_indicador] = 14,
+    REMOVEFILTERS('ods dim_calendario'[nombre_mes])
+)
+
+-- 12
+Indicador_2A1_1_FAO = 
+CALCULATE(
+    AVERAGE('L3 hechos_indicadores'[valor]),
+    'L3 hechos_indicadores'[id_fact_indicador] = 16,
+    REMOVEFILTERS('ods dim_calendario'[nombre_mes]),
+    REMOVEFILTERS('ods dim_autonomias'[nombre_autonomia])
+)
+
+-- 13
+Indicador_2A1_1_Normalizado = 
+DIVIDE(
+    [Indicador_2A1_3_INE], 
+    [Indicador_2a1_2_Nacional]
+)
+
+-- 14
+Indicador_2A1_2_FAO = 
+CALCULATE(
+    AVERAGE('L3 hechos_indicadores'[valor]),
+    'L3 hechos_indicadores'[id_fact_indicador] = 17,
+    REMOVEFILTERS('ods dim_calendario'[nombre_mes]),
+    REMOVEFILTERS('ods dim_autonomias'[nombre_autonomia])
+)
+
+-- 15
+Indicador_2a1_2_Nacional = 
+CALCULATE(
+    AVERAGE('L3 hechos_indicadores'[valor]),
+    'L3 hechos_indicadores'[id_fact_indicador] = 8,
+    'ods dim_autonomias'[id_tabla] = 20,
+    REMOVEFILTERS('ods dim_calendario'[nombre_mes])
+)
+
+-- 16
+Indicador_2a1_2_Regional = 
+CALCULATE(
+    AVERAGE('L3 hechos_indicadores'[valor]),
+    'L3 hechos_indicadores'[id_fact_indicador] = 8,
+    'ods dim_autonomias'[id_tabla] <> 20,
+    REMOVEFILTERS('ods dim_calendario'[nombre_mes])
+)
+
+-- 17
+Indicador_2A1_3_FAO = 
+CALCULATE(
+    AVERAGE('L3 hechos_indicadores'[valor]),
+    'L3 hechos_indicadores'[id_fact_indicador] = 18,
+    REMOVEFILTERS('ods dim_calendario'[nombre_mes]),
+    REMOVEFILTERS('ods dim_autonomias'[nombre_autonomia])
+)
+
+-- 18
+Indicador_2A1_3_INE = 
+CALCULATE(
+    AVERAGE('L3 hechos_indicadores'[valor]),
+    'L3 hechos_indicadores'[id_fact_indicador] = 9,
+    REMOVEFILTERS('ods dim_calendario'[nombre_mes]),
+    REMOVEFILTERS('ods dim_autonomias'[nombre_autonomia])
+)
+
+-- 19
+IPC INE por Autonomía (2.C.1.1) = 
+CALCULATE(
+    AVERAGE('L3 hechos_indicadores'[valor]),
+    'L3 hechos_indicadores'[id_fact_indicador] = 5
+)
+
+-- 20
+IPC Pan y Cereal (2.C.1.2) = 
+CALCULATE(
+    AVERAGE('L3 hechos_indicadores'[valor]),
+    'L3 hechos_indicadores'[id_fact_indicador] = 6,
+    REMOVEFILTERS('ods dim_autonomias'[nombre_autonomia])
+)
+
+-- 21
+IPC_Rojo (2.C.1.1) = 
+VAR valorIPC =
+    CALCULATE(
+        AVERAGE('L3 hechos_indicadores'[valor]),
+        'L3 hechos_indicadores'[id_fact_indicador] = 5,
+        REMOVEFILTERS('ods dim_autonomias'[nombre_autonomia])
+    )
+RETURN
+    IF(valorIPC > 100, valorIPC, BLANK())
+
+-- 22
+IPC_Verde (2.C.1.1) = 
+VAR valorIPC =
+    CALCULATE(
+        AVERAGE('L3 hechos_indicadores'[valor]),
+        'L3 hechos_indicadores'[id_fact_indicador] = 5,
+        REMOVEFILTERS('ods dim_autonomias'[nombre_autonomia])
+    )
+RETURN
+    IF(valorIPC < 100, valorIPC, BLANK())
+
+-- 23
+Rec_geneticos_251_INE = 
+CALCULATE(
+    AVERAGE('L3 hechos_indicadores'[valor]),
+    'L3 hechos_indicadores'[id_fact_indicador] = 2,
+    REMOVEFILTERS('ods dim_calendario'[nombre_mes])
+)
+
+-- 24
+Rec_geneticos_251A_FAO = 
+CALCULATE(
+    AVERAGE('L3 hechos_indicadores'[valor]),
+    'L3 hechos_indicadores'[id_fact_indicador] = 15,
+    REMOVEFILTERS('ods dim_calendario'[nombre_mes])
+)
+
+-- 25
+Superficie_agricola_241 = 
+CALCULATE(
+    AVERAGE('L3 hechos_indicadores'[valor]),
+    'L3 hechos_indicadores'[id_fact_indicador] = 1,
+    REMOVEFILTERS('ods dim_calendario'[nombre_mes])
+)

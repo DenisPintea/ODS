@@ -1,0 +1,31 @@
+﻿id_L1_fao_ods_2a1_3  GeoAreaName TimePeriod  Valor
+-------------------- ----------- ----------- ---------------------------------------
+1                    Spain       2001        1.7
+2                    Spain       2002        1.6
+3                    Spain       2003        1.6
+4                    Spain       2004        1.6
+5                    Spain       2005        1.6
+6                    Spain       2006        1.5
+7                    Spain       2007        1.5
+8                    Spain       2008        1.5
+9                    Spain       2009        1.2
+10                   Spain       2010        1.1
+11                   Spain       2011        1.0
+12                   Spain       2012        0.8
+13                   Spain       2013        0.9
+14                   Spain       2014        0.8
+15                   Spain       2015        0.9
+16                   Spain       2016        0.7
+17                   Spain       2017        0.7
+18                   Spain       2018        0.8
+19                   Spain       2019        0.8
+20                   Spain       2020        0.8
+21                   Spain       2021        0.7
+22                   Spain       2022        0.8
+23                   Spain       2023        0.8
+24                   NULL        NULL        NULL
+
+(24 rows affected)
+
+
+Completion time: 2025-06-20T16:14:31.8281878+02:00

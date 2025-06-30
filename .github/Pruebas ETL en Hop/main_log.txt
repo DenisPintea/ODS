@@ -1,0 +1,1010 @@
+2025/06/28 13:47:53 - Hop - Starting workflow
+2025/06/28 13:47:53 - MAIN - Start of workflow execution
+2025/06/28 13:47:53 - MAIN - Starting action [Comprobar conexion a BD]
+2025/06/28 13:47:53 - MAIN - Starting action [L1_INE]
+2025/06/28 13:47:53 - L1_INE - Start of workflow execution
+2025/06/28 13:47:53 - L1_INE - Starting action [SQLScript crear tablas L1]
+2025/06/28 13:47:53 - L1_INE - Starting action [L1_INE_ODS_2.C.1.1]
+2025/06/28 13:47:53 - L1_INE_ODS_2.C.1.1 - Using run configuration [local]
+2025/06/28 13:47:53 - L1_ODS_2C1_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:53 - L1_ODS_2C1_1 - Execution started for pipeline [L1_ODS_2C1_1]
+2025/06/28 13:47:53 - P3_L1_ODS_2.C.1.1.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:53 - P1_CargarExcel_2.C.1.2.0 - Finished processing (I=19, O=0, R=0, W=19, U=0, E=0)
+2025/06/28 13:47:53 - P2_RenombrarColumnas.0 - Finished processing (I=0, O=0, R=19, W=19, U=0, E=0)
+2025/06/28 13:47:53 - P3_L1_ODS_2.C.1.1.0 - Finished processing (I=0, O=19, R=19, W=19, U=0, E=0)
+2025/06/28 13:47:53 - L1_ODS_2C1_1 - Pipeline duration : 0.15 seconds [  0.150" ]
+2025/06/28 13:47:53 - L1_ODS_2C1_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:53 - L1_INE - Starting action [L1_INE_ODS_2.C.1.2]
+2025/06/28 13:47:53 - L1_INE_ODS_2.C.1.2 - Using run configuration [local]
+2025/06/28 13:47:53 - L1_ODS_2C1_2 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:53 - L1_ODS_2C1_2 - Execution started for pipeline [L1_ODS_2C1_2]
+2025/06/28 13:47:53 - P2_L1_ODS_2.C.1.2.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:53 - P1_CargarExcel_2.C.1.2.0 - Finished processing (I=8, O=0, R=0, W=8, U=0, E=0)
+2025/06/28 13:47:53 - P2_L1_ODS_2.C.1.2.0 - Finished processing (I=0, O=8, R=8, W=8, U=0, E=0)
+2025/06/28 13:47:53 - L1_ODS_2C1_2 - Pipeline duration : 0.079 seconds [  0.079" ]
+2025/06/28 13:47:53 - L1_ODS_2C1_2 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:53 - L1_INE - Starting action [L1_INE_ODS_2.A.1.1]
+2025/06/28 13:47:53 - L1_INE_ODS_2.A.1.1 - Using run configuration [local]
+2025/06/28 13:47:53 - L1_ODS_2A_1_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:53 - L1_ODS_2A_1_1 - Execution started for pipeline [L1_ODS_2A_1_1]
+2025/06/28 13:47:53 - P2_L1_ODS_2.A.1.1.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:53 - P1_CargarExcel_2.A.1.1.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 13:47:53 - P2_L1_ODS_2.A.1.1.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 13:47:53 - L1_ODS_2A_1_1 - Pipeline duration : 0.089 seconds [  0.089" ]
+2025/06/28 13:47:53 - L1_ODS_2A_1_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:53 - L1_INE - Starting action [L1_INE_ODS_2.A.1.2]
+2025/06/28 13:47:53 - L1_INE_ODS_2.A.1.2 - Using run configuration [local]
+2025/06/28 13:47:53 - L1_ODS_2A_1_2 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:53 - L1_ODS_2A_1_2 - Execution started for pipeline [L1_ODS_2A_1_2]
+2025/06/28 13:47:53 - P3_L1_ODS_2.A.1.2.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:53 - P1_CargarExcel_2.A.1.2.0 - Finished processing (I=20, O=0, R=0, W=20, U=0, E=0)
+2025/06/28 13:47:53 - P2_RenombrarColumnas.0 - Finished processing (I=0, O=0, R=20, W=20, U=0, E=0)
+2025/06/28 13:47:53 - P3_L1_ODS_2.A.1.2.0 - Finished processing (I=0, O=20, R=20, W=20, U=0, E=0)
+2025/06/28 13:47:53 - L1_ODS_2A_1_2 - Pipeline duration : 0.083 seconds [  0.083" ]
+2025/06/28 13:47:53 - L1_ODS_2A_1_2 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:53 - L1_INE - Starting action [L1_INE_ODS_2.A.1.3]
+2025/06/28 13:47:53 - L1_INE_ODS_2.A.1.3 - Using run configuration [local]
+2025/06/28 13:47:53 - L1_ODS_2A_1_3 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:53 - L1_ODS_2A_1_3 - Execution started for pipeline [L1_ODS_2A_1_3]
+2025/06/28 13:47:53 - P2_L1_ODS_2.A.1.3.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:53 - P1_CargarExcel_2.A.1.3.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 13:47:53 - P2_L1_ODS_2.A.1.3.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 13:47:53 - L1_ODS_2A_1_3 - Pipeline duration : 0.059 seconds [  0.059" ]
+2025/06/28 13:47:53 - L1_ODS_2A_1_3 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:53 - L1_INE - Starting action [L1_INE_ODS_2.A.2.1_BRUTO]
+2025/06/28 13:47:53 - L1_INE_ODS_2.A.2.1_BRUTO - Using run configuration [local]
+2025/06/28 13:47:53 - L1_ODS_2A_2_AOD_BRUTO - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:53 - L1_ODS_2A_2_AOD_BRUTO - Execution started for pipeline [L1_ODS_2A_2_AOD_BRUTO]
+2025/06/28 13:47:54 - P2_L1_ODS_2A2_AOD_BRUTO.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:54 - P1_CargarExcel_2.A.2.1.0 - Finished processing (I=8, O=0, R=0, W=8, U=0, E=0)
+2025/06/28 13:47:54 - P2_L1_ODS_2A2_AOD_BRUTO.0 - Finished processing (I=0, O=8, R=8, W=8, U=0, E=0)
+2025/06/28 13:47:54 - L1_ODS_2A_2_AOD_BRUTO - Pipeline duration : 0.067 seconds [  0.067" ]
+2025/06/28 13:47:54 - L1_ODS_2A_2_AOD_BRUTO - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:54 - L1_INE - Starting action [L1_INE_ODS_2.A.2.2_NETO]
+2025/06/28 13:47:54 - L1_INE_ODS_2.A.2.2_NETO - Using run configuration [local]
+2025/06/28 13:47:54 - L1_ODS_2A_2_AOD_NETO - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:54 - L1_ODS_2A_2_AOD_NETO - Execution started for pipeline [L1_ODS_2A_2_AOD_NETO]
+2025/06/28 13:47:54 - P2_L1_ODS_2.A.2_AOD_NETO.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:54 - P1_CargarExcel_2.A.2.2.0 - Finished processing (I=8, O=0, R=0, W=8, U=0, E=0)
+2025/06/28 13:47:54 - P2_L1_ODS_2.A.2_AOD_NETO.0 - Finished processing (I=0, O=8, R=8, W=8, U=0, E=0)
+2025/06/28 13:47:54 - L1_ODS_2A_2_AOD_NETO - Pipeline duration : 0.066 seconds [  0.066" ]
+2025/06/28 13:47:54 - L1_ODS_2A_2_AOD_NETO - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:54 - L1_INE - Starting action [L1_INE_ODS_2.5.1]
+2025/06/28 13:47:54 - L1_INE_ODS_2.5.1 - Using run configuration [local]
+2025/06/28 13:47:54 - L1_ODS_2_5_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:54 - L1_ODS_2_5_1 - Execution started for pipeline [L1_ODS_2_5_1]
+2025/06/28 13:47:54 - P2_L1_ODS_2.5.1.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:54 - P1_CargarExcel_2.5.1.0 - Finished processing (I=15, O=0, R=0, W=15, U=0, E=0)
+2025/06/28 13:47:54 - P2_L1_ODS_2.5.1.0 - Finished processing (I=0, O=15, R=15, W=15, U=0, E=0)
+2025/06/28 13:47:54 - L1_ODS_2_5_1 - Pipeline duration : 0.077 seconds [  0.077" ]
+2025/06/28 13:47:54 - L1_ODS_2_5_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:54 - L1_INE - Starting action [L1_INE_ODS_2.4.1]
+2025/06/28 13:47:54 - L1_INE_ODS_2.4.1 - Using run configuration [local]
+2025/06/28 13:47:54 - L1_ODS_2_4_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:54 - L1_ODS_2_4_1 - Execution started for pipeline [L1_ODS_2_4_1]
+2025/06/28 13:47:54 - P2_L1_ODS_2.4.1.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:54 - P1_CargarExcel_2.4.1.0 - Finished processing (I=7, O=0, R=0, W=7, U=0, E=0)
+2025/06/28 13:47:54 - P2_L1_ODS_2.4.1.0 - Finished processing (I=0, O=7, R=7, W=7, U=0, E=0)
+2025/06/28 13:47:54 - L1_ODS_2_4_1 - Pipeline duration : 0.055 seconds [  0.055" ]
+2025/06/28 13:47:54 - L1_ODS_2_4_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:54 - L1_INE - Starting action [L1_INE_ODS_15.2.1]
+2025/06/28 13:47:54 - L1_INE_ODS_15.2.1 - Using run configuration [local]
+2025/06/28 13:47:54 - L1_ODS_15_2_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:54 - L1_ODS_15_2_1 - Execution started for pipeline [L1_ODS_15_2_1]
+2025/06/28 13:47:54 - P3_L1_ODS_15.2.1.1.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:54 - P3_L1_ODS_15.2.1.2.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:54 - P1_CargarExcel_15.2.1.1.0 - Finished processing (I=8, O=0, R=0, W=8, U=0, E=0)
+2025/06/28 13:47:54 - P1_CargarExcel_15.2.1.2.0 - Finished processing (I=8, O=0, R=0, W=8, U=0, E=0)
+2025/06/28 13:47:54 - P3_L1_ODS_15.2.1.1.0 - Finished processing (I=0, O=8, R=8, W=8, U=0, E=0)
+2025/06/28 13:47:54 - P3_L1_ODS_15.2.1.2.0 - Finished processing (I=0, O=8, R=8, W=8, U=0, E=0)
+2025/06/28 13:47:54 - L1_ODS_15_2_1 - Pipeline duration : 0.07 seconds [  0.070" ]
+2025/06/28 13:47:54 - L1_ODS_15_2_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:54 - L1_INE - Starting action [L1_INE_ODS_15.6.1.5]
+2025/06/28 13:47:54 - L1_INE_ODS_15.6.1.5 - Using run configuration [local]
+2025/06/28 13:47:54 - L1_ODS_15_6_1_5 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:54 - L1_ODS_15_6_1_5 - Execution started for pipeline [L1_ODS_15_6_1_5]
+2025/06/28 13:47:54 - P2_L1_ODS_15.6.1.5.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:54 - P1_CargarExcel_15.6.1.5.0 - Finished processing (I=3, O=0, R=0, W=3, U=0, E=0)
+2025/06/28 13:47:54 - P2_L1_ODS_15.6.1.5.0 - Finished processing (I=0, O=3, R=3, W=3, U=0, E=0)
+2025/06/28 13:47:54 - L1_ODS_15_6_1_5 - Pipeline duration : 0.057 seconds [  0.057" ]
+2025/06/28 13:47:54 - L1_ODS_15_6_1_5 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:54 - L1_INE - Starting action [L1_INE_ODS_15.A.1.1]
+2025/06/28 13:47:54 - L1_INE_ODS_15.A.1.1 - Using run configuration [local]
+2025/06/28 13:47:54 - L1_ODS_15_A_1_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:54 - L1_ODS_15_A_1_1 - Execution started for pipeline [L1_ODS_15_A_1_1]
+2025/06/28 13:47:54 - P2_L1_ODS_15.A.1.1.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:54 - P1_CargarExcel_15.A.1.1.0 - Finished processing (I=8, O=0, R=0, W=8, U=0, E=0)
+2025/06/28 13:47:54 - P2_L1_ODS_15.A.1.1.0 - Finished processing (I=0, O=8, R=8, W=8, U=0, E=0)
+2025/06/28 13:47:54 - L1_ODS_15_A_1_1 - Pipeline duration : 0.058 seconds [  0.058" ]
+2025/06/28 13:47:54 - L1_ODS_15_A_1_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:54 - L1_INE - Starting action [L1_INE_ODS_15.B.1.1]
+2025/06/28 13:47:54 - L1_INE_ODS_15.B.1.1 - Using run configuration [local]
+2025/06/28 13:47:54 - L1_ODS_15_B_1_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:54 - L1_ODS_15_B_1_1 - Execution started for pipeline [L1_ODS_15_B_1_1]
+2025/06/28 13:47:54 - P2_L1_ODS_15.B.1.1.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:54 - P1_CargarExcel_15.B.1.1.0 - Finished processing (I=5, O=0, R=0, W=5, U=0, E=0)
+2025/06/28 13:47:54 - P2_L1_ODS_15.B.1.1.0 - Finished processing (I=0, O=5, R=5, W=5, U=0, E=0)
+2025/06/28 13:47:54 - L1_ODS_15_B_1_1 - Pipeline duration : 0.066 seconds [  0.066" ]
+2025/06/28 13:47:54 - L1_ODS_15_B_1_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:54 - L1_INE - Starting action [Fin-Exito]
+2025/06/28 13:47:54 - L1_INE - Finished action [Fin-Exito] (result=[true])
+2025/06/28 13:47:54 - L1_INE - Finished action [L1_INE_ODS_15.B.1.1] (result=[true])
+2025/06/28 13:47:54 - L1_INE - Finished action [L1_INE_ODS_15.A.1.1] (result=[true])
+2025/06/28 13:47:54 - L1_INE - Finished action [L1_INE_ODS_15.6.1.5] (result=[true])
+2025/06/28 13:47:54 - L1_INE - Finished action [L1_INE_ODS_15.2.1] (result=[true])
+2025/06/28 13:47:54 - L1_INE - Finished action [L1_INE_ODS_2.4.1] (result=[true])
+2025/06/28 13:47:54 - L1_INE - Finished action [L1_INE_ODS_2.5.1] (result=[true])
+2025/06/28 13:47:54 - L1_INE - Finished action [L1_INE_ODS_2.A.2.2_NETO] (result=[true])
+2025/06/28 13:47:54 - L1_INE - Finished action [L1_INE_ODS_2.A.2.1_BRUTO] (result=[true])
+2025/06/28 13:47:54 - L1_INE - Finished action [L1_INE_ODS_2.A.1.3] (result=[true])
+2025/06/28 13:47:54 - L1_INE - Finished action [L1_INE_ODS_2.A.1.2] (result=[true])
+2025/06/28 13:47:54 - L1_INE - Finished action [L1_INE_ODS_2.A.1.1] (result=[true])
+2025/06/28 13:47:54 - L1_INE - Finished action [L1_INE_ODS_2.C.1.2] (result=[true])
+2025/06/28 13:47:54 - L1_INE - Finished action [L1_INE_ODS_2.C.1.1] (result=[true])
+2025/06/28 13:47:54 - L1_INE - Finished action [SQLScript crear tablas L1] (result=[true])
+2025/06/28 13:47:54 - L1_INE - Workflow execution finished
+2025/06/28 13:47:54 - L1_INE - Workflow duration : 1.318 seconds [  1.318" ]
+2025/06/28 13:47:54 - MAIN - Starting action [L1_FAO]
+2025/06/28 13:47:54 - L1_FAO - Start of workflow execution
+2025/06/28 13:47:54 - L1_FAO - Starting action [SQLscript crear tablas L1 FAO]
+2025/06/28 13:47:54 - L1_FAO - Starting action [SDG_2C1]
+2025/06/28 13:47:54 - SDG_2C1 - Using run configuration [local]
+2025/06/28 13:47:54 - L1_ODS_2C1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:54 - L1_ODS_2C1 - Execution started for pipeline [L1_ODS_2C1]
+2025/06/28 13:47:54 - P2_L1_ODS_FAO_2.C.1.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:54 - P1_CSV file input_2.C.1.0 - Header row skipped in file 'D:\hop_projects\entorno-dev\L1_STAGE\Dataset_L1_FAO\FAOSTAT_SDG_2.c.1 Indicador  IFPA de anomalías en los precios de los alimentos.csv'
+2025/06/28 13:47:54 - P1_CSV file input_2.C.1.0 - Finished processing (I=16, O=0, R=0, W=15, U=0, E=0)
+2025/06/28 13:47:54 - P2_L1_ODS_FAO_2.C.1.0 - Finished processing (I=0, O=15, R=15, W=15, U=0, E=0)
+2025/06/28 13:47:54 - L1_ODS_2C1 - Pipeline duration : 0.053 seconds [  0.053" ]
+2025/06/28 13:47:54 - L1_ODS_2C1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:54 - L1_FAO - Starting action [SDG_2.A.1.1]
+2025/06/28 13:47:54 - SDG_2.A.1.1 - Using run configuration [local]
+2025/06/28 13:47:54 - L1_ODS_2A1_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:54 - L1_ODS_2A1_1 - Execution started for pipeline [L1_ODS_2A1_1]
+2025/06/28 13:47:54 - P2_L1_ODS_FAO_2.A.1.1.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:54 - P1_CSV file input_2.A.1.1.0 - Header row skipped in file 'D:\hop_projects\entorno-dev\L1_STAGE\Dataset_L1_FAO\FAOSTAT_SDG_2.a.1.1 Indice de orientacion agricola.csv'
+2025/06/28 13:47:54 - P1_CSV file input_2.A.1.1.0 - Finished processing (I=25, O=0, R=0, W=24, U=0, E=0)
+2025/06/28 13:47:54 - P2_L1_ODS_FAO_2.A.1.1.0 - Finished processing (I=0, O=24, R=24, W=24, U=0, E=0)
+2025/06/28 13:47:54 - L1_ODS_2A1_1 - Pipeline duration : 0.063 seconds [  0.063" ]
+2025/06/28 13:47:54 - L1_ODS_2A1_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:54 - L1_FAO - Starting action [SDG_2.A.1.2]
+2025/06/28 13:47:54 - SDG_2.A.1.2 - Using run configuration [local]
+2025/06/28 13:47:54 - L1_ODS_2A1_2 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:54 - L1_ODS_2A1_2 - Execution started for pipeline [L1_ODS_2A1_2]
+2025/06/28 13:47:54 - P2_L1_ODS_FAO_2.A.1.2.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:54 - P1_CSV file input_2.A.1.2.0 - Header row skipped in file 'D:\hop_projects\entorno-dev\L1_STAGE\Dataset_L1_FAO\FAOSTAT_SDG_2.a.1.2 Valor añadido de la agricultura como procentaje del PIB.csv'
+2025/06/28 13:47:54 - P1_CSV file input_2.A.1.2.0 - Finished processing (I=25, O=0, R=0, W=24, U=0, E=0)
+2025/06/28 13:47:54 - P2_L1_ODS_FAO_2.A.1.2.0 - Finished processing (I=0, O=24, R=24, W=24, U=0, E=0)
+2025/06/28 13:47:54 - L1_ODS_2A1_2 - Pipeline duration : 0.053 seconds [  0.053" ]
+2025/06/28 13:47:54 - L1_ODS_2A1_2 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:54 - L1_FAO - Starting action [SDG_2.A.1.3]
+2025/06/28 13:47:54 - SDG_2.A.1.3 - Using run configuration [local]
+2025/06/28 13:47:54 - L1_ODS_2A1_3 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:54 - L1_ODS_2A1_3 - Execution started for pipeline [L1_ODS_2A1_3]
+2025/06/28 13:47:54 - P2_L1_ODS_FAO_2.A.1.3.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:54 - P1_CSV file input_2.A.1.3.0 - Header row skipped in file 'D:\hop_projects\entorno-dev\L1_STAGE\Dataset_L1_FAO\FAOSTAT_SDG_2.a.1.3 Porcentaje de la agricultura en el gasto publico.csv'
+2025/06/28 13:47:54 - P1_CSV file input_2.A.1.3.0 - Finished processing (I=25, O=0, R=0, W=24, U=0, E=0)
+2025/06/28 13:47:54 - P2_L1_ODS_FAO_2.A.1.3.0 - Finished processing (I=0, O=24, R=24, W=24, U=0, E=0)
+2025/06/28 13:47:54 - L1_ODS_2A1_3 - Pipeline duration : 0.055 seconds [  0.055" ]
+2025/06/28 13:47:54 - L1_ODS_2A1_3 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:54 - L1_FAO - Starting action [SDG_2.5.1.A]
+2025/06/28 13:47:54 - SDG_2.5.1.A - Using run configuration [local]
+2025/06/28 13:47:54 - L1_ODS_2_5_1_A - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:54 - L1_ODS_2_5_1_A - Execution started for pipeline [L1_ODS_2_5_1_A]
+2025/06/28 13:47:54 - P2_L1_ODS_FAO_2.5.1.A.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:54 - P1_CSV file input_2.5.1.A.0 - Header row skipped in file 'D:\hop_projects\entorno-dev\L1_STAGE\Dataset_L1_FAO\FAOSTAT_SDG_2.5.1 recursos genéticos vegetales.csv'
+2025/06/28 13:47:54 - P1_CSV file input_2.5.1.A.0 - Finished processing (I=15, O=0, R=0, W=14, U=0, E=0)
+2025/06/28 13:47:54 - P2_L1_ODS_FAO_2.5.1.A.0 - Finished processing (I=0, O=14, R=14, W=14, U=0, E=0)
+2025/06/28 13:47:54 - L1_ODS_2_5_1_A - Pipeline duration : 0.052 seconds [  0.052" ]
+2025/06/28 13:47:54 - L1_ODS_2_5_1_A - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:54 - L1_FAO - Starting action [SDG_15.2.1]
+2025/06/28 13:47:54 - SDG_15.2.1 - Using run configuration [local]
+2025/06/28 13:47:54 - L1_ODS_15_2_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:54 - L1_ODS_15_2_1 - Execution started for pipeline [L1_ODS_15_2_1]
+2025/06/28 13:47:55 - P2_L1_ODS_FAO_2.15.2.1.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:55 - P1_Excel input_15.2.1.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 13:47:55 - P2_L1_ODS_FAO_2.15.2.1.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 13:47:55 - L1_ODS_15_2_1 - Pipeline duration : 0.055 seconds [  0.055" ]
+2025/06/28 13:47:55 - L1_ODS_15_2_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:55 - L1_FAO - Starting action [SDG_15.6.1.5]
+2025/06/28 13:47:55 - SDG_15.6.1.5 - Using run configuration [local]
+2025/06/28 13:47:55 - L1_ODS_15_6_1_5 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:55 - L1_ODS_15_6_1_5 - Execution started for pipeline [L1_ODS_15_6_1_5]
+2025/06/28 13:47:55 - P2_L1_ODS_FAO_15.6.1.5.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:55 - P1_CSV file input_15.6.1.5.0 - Header row skipped in file 'D:\hop_projects\entorno-dev\L1_STAGE\Dataset_L1_FAO\FAOSTAT_SDG_15.6.1.5 Numero total de SMTAS transferidos para recursos fitogenicos.csv'
+2025/06/28 13:47:55 - P1_CSV file input_15.6.1.5.0 - Finished processing (I=15, O=0, R=0, W=14, U=0, E=0)
+2025/06/28 13:47:55 - P2_L1_ODS_FAO_15.6.1.5.0 - Finished processing (I=0, O=14, R=14, W=14, U=0, E=0)
+2025/06/28 13:47:55 - L1_ODS_15_6_1_5 - Pipeline duration : 0.046 seconds [  0.046" ]
+2025/06/28 13:47:55 - L1_ODS_15_6_1_5 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:55 - L1_FAO - Starting action [Fin/Exito]
+2025/06/28 13:47:55 - L1_FAO - Finished action [Fin/Exito] (result=[true])
+2025/06/28 13:47:55 - L1_FAO - Finished action [SDG_15.6.1.5] (result=[true])
+2025/06/28 13:47:55 - L1_FAO - Finished action [SDG_15.2.1] (result=[true])
+2025/06/28 13:47:55 - L1_FAO - Finished action [SDG_2.5.1.A] (result=[true])
+2025/06/28 13:47:55 - L1_FAO - Finished action [SDG_2.A.1.3] (result=[true])
+2025/06/28 13:47:55 - L1_FAO - Finished action [SDG_2.A.1.2] (result=[true])
+2025/06/28 13:47:55 - L1_FAO - Finished action [SDG_2.A.1.1] (result=[true])
+2025/06/28 13:47:55 - L1_FAO - Finished action [SDG_2C1] (result=[true])
+2025/06/28 13:47:55 - L1_FAO - Finished action [SQLscript crear tablas L1 FAO] (result=[true])
+2025/06/28 13:47:55 - L1_FAO - Workflow execution finished
+2025/06/28 13:47:55 - L1_FAO - Workflow duration : 0.502 seconds [  0.502" ]
+2025/06/28 13:47:55 - MAIN - Starting action [Load_dimensiones]
+2025/06/28 13:47:55 - Load_dimensiones - Start of workflow execution
+2025/06/28 13:47:55 - Load_dimensiones - Starting action [Comprobar conexion a BD]
+2025/06/28 13:47:55 - Load_dimensiones - Starting action [Table exists dim_calendario]
+2025/06/28 13:47:55 - Load_dimensiones - Starting action [Truncate tabla dim_calendario]
+2025/06/28 13:47:55 - Load_dimensiones - Starting action [CargarDatosCalendario]
+2025/06/28 13:47:55 - Load_dimensiones - Starting action [Table exists dim_autonomias]
+2025/06/28 13:47:55 - Load_dimensiones - Starting action [Truncate tabla dim_autonomias]
+2025/06/28 13:47:55 - Load_dimensiones - Starting action [CargarDatosAutonomias]
+2025/06/28 13:47:55 - Load_dimensiones - Starting action [Table exists dim_indicadores]
+2025/06/28 13:47:55 - Load_dimensiones - Starting action [Truncate tabla dim_indicadores]
+2025/06/28 13:47:55 - Load_dimensiones - Starting action [CargarDatosIndicadores]
+2025/06/28 13:47:55 - Load_dimensiones - Starting action [Fin/Exito]
+2025/06/28 13:47:55 - Load_dimensiones - Finished action [Fin/Exito] (result=[true])
+2025/06/28 13:47:55 - Load_dimensiones - Finished action [CargarDatosIndicadores] (result=[true])
+2025/06/28 13:47:55 - Load_dimensiones - Finished action [Truncate tabla dim_indicadores] (result=[true])
+2025/06/28 13:47:55 - Load_dimensiones - Finished action [Table exists dim_indicadores] (result=[true])
+2025/06/28 13:47:55 - Load_dimensiones - Finished action [CargarDatosAutonomias] (result=[true])
+2025/06/28 13:47:55 - Load_dimensiones - Finished action [Truncate tabla dim_autonomias] (result=[true])
+2025/06/28 13:47:55 - Load_dimensiones - Finished action [Table exists dim_autonomias] (result=[true])
+2025/06/28 13:47:55 - Load_dimensiones - Finished action [CargarDatosCalendario] (result=[true])
+2025/06/28 13:47:55 - Load_dimensiones - Finished action [Truncate tabla dim_calendario] (result=[true])
+2025/06/28 13:47:55 - Load_dimensiones - Finished action [Table exists dim_calendario] (result=[true])
+2025/06/28 13:47:55 - Load_dimensiones - Finished action [Comprobar conexion a BD] (result=[true])
+2025/06/28 13:47:55 - Load_dimensiones - Workflow execution finished
+2025/06/28 13:47:55 - Load_dimensiones - Workflow duration : 0.238 seconds [  0.238" ]
+2025/06/28 13:47:55 - MAIN - Starting action [L2_INE]
+2025/06/28 13:47:55 - L2_INE - Start of workflow execution
+2025/06/28 13:47:55 - L2_INE - Starting action [SQLScript crear tablas L2]
+2025/06/28 13:47:55 - L2_INE - Starting action [L2_INE_ODS_2.C.1.1]
+2025/06/28 13:47:55 - L2_INE_ODS_2.C.1.1 - Using run configuration [local]
+2025/06/28 13:47:55 - L2_INE_ODS_2C1_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:55 - L2_INE_ODS_2C1_1 - Execution started for pipeline [L2_INE_ODS_2C1_1]
+2025/06/28 13:47:55 - P10_L2_INE_ODS_2C1_1.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:55 - dim_autonomias.0 - Finished reading query, closing connection.
+2025/06/28 13:47:55 - dim_autonomias.0 - Finished processing (I=20, O=0, R=0, W=20, U=0, E=0)
+2025/06/28 13:47:55 - dim_calendario.0 - Finished reading query, closing connection.
+2025/06/28 13:47:55 - dim_calendario.0 - Finished processing (I=96, O=0, R=0, W=96, U=0, E=0)
+2025/06/28 13:47:55 - dim_indicadores.0 - Finished reading query, closing connection.
+2025/06/28 13:47:55 - P1_L1_INE_ODS_2C1_1.0 - Finished reading query, closing connection.
+2025/06/28 13:47:55 - dim_indicadores.0 - Finished processing (I=21, O=0, R=0, W=21, U=0, E=0)
+2025/06/28 13:47:55 - P1_L1_INE_ODS_2C1_1.0 - Finished processing (I=19, O=0, R=0, W=19, U=0, E=0)
+2025/06/28 13:47:55 - P2_Normalizar filas.0 - Finished processing (I=0, O=0, R=19, W=1691, U=0, E=0)
+2025/06/28 13:47:55 - P3_Split fields Año_Mes.0 - Finished processing (I=0, O=0, R=1691, W=1691, U=0, E=0)
+2025/06/28 13:47:55 - P4_Quitar M al Mes.0 - Finished processing (I=0, O=0, R=1691, W=1691, U=0, E=0)
+2025/06/28 13:47:55 - P5_Split fields Autonomia.0 - Finished processing (I=0, O=0, R=1691, W=1691, U=0, E=0)
+2025/06/28 13:47:55 - P6_Mes_numero & Año a INT.0 - Finished processing (I=0, O=0, R=1691, W=1691, U=0, E=0)
+2025/06/28 13:47:55 - P7_obtener id_autonomia.0 - Finished processing (I=0, O=0, R=1711, W=1691, U=0, E=0)
+2025/06/28 13:47:55 - P8_obtener id_calendario.0 - Finished processing (I=0, O=0, R=1787, W=1691, U=0, E=0)
+2025/06/28 13:47:55 - P9_añadir_columna_cod_indicador.0 - Finished processing (I=0, O=0, R=1691, W=1691, U=0, E=0)
+2025/06/28 13:47:55 - P10_obtener id_indicador.0 - Finished processing (I=0, O=0, R=1712, W=1691, U=0, E=0)
+2025/06/28 13:47:55 - P9_Renombrar y ordenar campos.0 - Finished processing (I=0, O=0, R=1691, W=1691, U=0, E=0)
+2025/06/28 13:47:56 - P10_L2_INE_ODS_2C1_1.0 - Finished processing (I=0, O=1691, R=1691, W=1691, U=0, E=0)
+2025/06/28 13:47:56 - L2_INE_ODS_2C1_1 - Pipeline duration : 0.683 seconds [  0.683" ]
+2025/06/28 13:47:56 - L2_INE_ODS_2C1_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:56 - L2_INE - Starting action [L2_INE_ODS_2.C.1.2]
+2025/06/28 13:47:56 - L2_INE_ODS_2.C.1.2 - Using run configuration [local]
+2025/06/28 13:47:56 - L2_INE_ODS_2C1_2 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:56 - L2_INE_ODS_2C1_2 - Execution started for pipeline [L2_INE_ODS_2C1_2]
+2025/06/28 13:47:56 - P9_L2_INE_ODS_2C1_2.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:56 - calendario.0 - Finished reading query, closing connection.
+2025/06/28 13:47:56 - P1_L1_INE_ODS_2C1_2.0 - Finished reading query, closing connection.
+2025/06/28 13:47:56 - dim_indicadores.0 - Finished reading query, closing connection.
+2025/06/28 13:47:56 - dim_autonomias.0 - Finished reading query, closing connection.
+2025/06/28 13:47:56 - calendario.0 - Finished processing (I=96, O=0, R=0, W=96, U=0, E=0)
+2025/06/28 13:47:56 - P1_L1_INE_ODS_2C1_2.0 - Finished processing (I=8, O=0, R=0, W=8, U=0, E=0)
+2025/06/28 13:47:56 - dim_indicadores.0 - Finished processing (I=21, O=0, R=0, W=21, U=0, E=0)
+2025/06/28 13:47:56 - dim_autonomias.0 - Finished processing (I=20, O=0, R=0, W=20, U=0, E=0)
+2025/06/28 13:47:56 - P2_Normalizar filas.0 - Finished processing (I=0, O=0, R=8, W=96, U=0, E=0)
+2025/06/28 13:47:56 - P3_Separar campo Mes.0 - Finished processing (I=0, O=0, R=96, W=96, U=0, E=0)
+2025/06/28 13:47:56 - P4_Mes_numero & Año a INT.0 - Finished processing (I=0, O=0, R=96, W=96, U=0, E=0)
+2025/06/28 13:47:56 - P4_indicador&columna.0 - Finished processing (I=0, O=0, R=96, W=96, U=0, E=0)
+2025/06/28 13:47:56 - P5_dim_calendario.0 - Finished processing (I=0, O=0, R=192, W=96, U=0, E=0)
+2025/06/28 13:47:56 - P6_obtener id_autonomia.0 - Finished processing (I=0, O=0, R=116, W=96, U=0, E=0)
+2025/06/28 13:47:56 - P7_obtener id_indicador.0 - Finished processing (I=0, O=0, R=117, W=96, U=0, E=0)
+2025/06/28 13:47:56 - P8_Seleccionar y ordenar campos.0 - Finished processing (I=0, O=0, R=96, W=96, U=0, E=0)
+2025/06/28 13:47:56 - P9_L2_INE_ODS_2C1_2.0 - Finished processing (I=0, O=96, R=96, W=96, U=0, E=0)
+2025/06/28 13:47:56 - L2_INE_ODS_2C1_2 - Pipeline duration : 0.28 seconds [  0.280" ]
+2025/06/28 13:47:56 - L2_INE_ODS_2C1_2 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:56 - L2_INE - Starting action [L2_INE_ODS_2.A.1.1]
+2025/06/28 13:47:56 - L2_INE_ODS_2.A.1.1 - Using run configuration [local]
+2025/06/28 13:47:56 - L2_INE_ODS_2A1_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:56 - L2_INE_ODS_2A1_1 - Execution started for pipeline [L2_INE_ODS_2A1_1]
+2025/06/28 13:47:56 - P6_L2_INE_ODS_2A1_1.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:56 - autonomias.0 - Finished reading query, closing connection.
+2025/06/28 13:47:56 - calendario.0 - Finished reading query, closing connection.
+2025/06/28 13:47:56 - autonomias.0 - Finished processing (I=20, O=0, R=0, W=20, U=0, E=0)
+2025/06/28 13:47:56 - dim_indicadores.0 - Finished reading query, closing connection.
+2025/06/28 13:47:56 - calendario.0 - Finished processing (I=96, O=0, R=0, W=96, U=0, E=0)
+2025/06/28 13:47:56 - P1_L1_INE_ODS_2A1.0 - Finished reading query, closing connection.
+2025/06/28 13:47:56 - dim_indicadores.0 - Finished processing (I=21, O=0, R=0, W=21, U=0, E=0)
+2025/06/28 13:47:56 - P1_L1_INE_ODS_2A1.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 13:47:56 - P2_obtener id_indicador.0 - Finished processing (I=0, O=0, R=27, W=6, U=0, E=0)
+2025/06/28 13:47:56 - P3_obtener id_autonomia.0 - Finished processing (I=0, O=0, R=26, W=6, U=0, E=0)
+2025/06/28 13:47:56 - P4_obtener id_calendario.0 - Finished processing (I=0, O=0, R=102, W=6, U=0, E=0)
+2025/06/28 13:47:56 - P5_ordenar campos.0 - Finished processing (I=0, O=0, R=6, W=6, U=0, E=0)
+2025/06/28 13:47:56 - P6_L2_INE_ODS_2A1_1.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 13:47:56 - L2_INE_ODS_2A1_1 - Pipeline duration : 0.247 seconds [  0.247" ]
+2025/06/28 13:47:56 - L2_INE_ODS_2A1_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:56 - L2_INE - Starting action [L2_INE_ODS_2.A.1.2]
+2025/06/28 13:47:56 - L2_INE_ODS_2.A.1.2 - Using run configuration [local]
+2025/06/28 13:47:56 - L2_INE_ODS_2A1_2 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:56 - L2_INE_ODS_2A1_2 - Execution started for pipeline [L2_INE_ODS_2A1_2]
+2025/06/28 13:47:56 - P10_L2_INE_ODS_2A1_2.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:56 - autonomias.0 - Finished reading query, closing connection.
+2025/06/28 13:47:56 - calendario.0 - Finished reading query, closing connection.
+2025/06/28 13:47:56 - autonomias.0 - Finished processing (I=20, O=0, R=0, W=20, U=0, E=0)
+2025/06/28 13:47:56 - dim_indicadores.0 - Finished reading query, closing connection.
+2025/06/28 13:47:56 - calendario.0 - Finished processing (I=96, O=0, R=0, W=96, U=0, E=0)
+2025/06/28 13:47:56 - dim_indicadores.0 - Finished processing (I=21, O=0, R=0, W=21, U=0, E=0)
+2025/06/28 13:47:56 - P1_L1_INE_ODS_2A1_2.0 - Finished reading query, closing connection.
+2025/06/28 13:47:56 - P1_L1_INE_ODS_2A1_2.0 - Finished processing (I=20, O=0, R=0, W=20, U=0, E=0)
+2025/06/28 13:47:56 - P2_Normalizar años.0 - Finished processing (I=0, O=0, R=20, W=120, U=0, E=0)
+2025/06/28 13:47:56 - P3_Split fields Autonomia.0 - Finished processing (I=0, O=0, R=120, W=120, U=0, E=0)
+2025/06/28 13:47:56 - Reemplazar 'Total' por 99.0 - Finished processing (I=0, O=0, R=120, W=120, U=0, E=0)
+2025/06/28 13:47:56 - P4_Quitar la A del año.0 - Finished processing (I=0, O=0, R=120, W=120, U=0, E=0)
+2025/06/28 13:47:56 - P5_cod_indicador.0 - Finished processing (I=0, O=0, R=120, W=120, U=0, E=0)
+2025/06/28 13:47:56 - P6_Anio pasar a INT.0 - Finished processing (I=0, O=0, R=120, W=120, U=0, E=0)
+2025/06/28 13:47:56 - P7_obtener id_indicador.0 - Finished processing (I=0, O=0, R=141, W=120, U=0, E=0)
+2025/06/28 13:47:56 - P8_obtener id_autonomia.0 - Finished processing (I=0, O=0, R=140, W=120, U=0, E=0)
+2025/06/28 13:47:56 - P9_obtener id_calendario.0 - Finished processing (I=0, O=0, R=216, W=120, U=0, E=0)
+2025/06/28 13:47:56 - P10_L2_INE_ODS_2A1_2.0 - Finished processing (I=0, O=120, R=120, W=120, U=0, E=0)
+2025/06/28 13:47:56 - L2_INE_ODS_2A1_2 - Pipeline duration : 0.274 seconds [  0.274" ]
+2025/06/28 13:47:56 - L2_INE_ODS_2A1_2 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:56 - L2_INE - Starting action [L2_INE_ODS_2.A.1.3]
+2025/06/28 13:47:56 - L2_INE_ODS_2.A.1.3 - Using run configuration [local]
+2025/06/28 13:47:56 - L2_INE_ODS_2A1_3 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:56 - L2_INE_ODS_2A1_3 - Execution started for pipeline [L2_INE_ODS_2A1_3]
+2025/06/28 13:47:57 - P6_L2_INE_ODS_2A1_3.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:57 - autonomias.0 - Finished reading query, closing connection.
+2025/06/28 13:47:57 - calendario.0 - Finished reading query, closing connection.
+2025/06/28 13:47:57 - autonomias.0 - Finished processing (I=20, O=0, R=0, W=20, U=0, E=0)
+2025/06/28 13:47:57 - dim_indicadores.0 - Finished reading query, closing connection.
+2025/06/28 13:47:57 - P1_L1_INE_ODS_2A3.0 - Finished reading query, closing connection.
+2025/06/28 13:47:57 - calendario.0 - Finished processing (I=96, O=0, R=0, W=96, U=0, E=0)
+2025/06/28 13:47:57 - dim_indicadores.0 - Finished processing (I=21, O=0, R=0, W=21, U=0, E=0)
+2025/06/28 13:47:57 - P1_L1_INE_ODS_2A3.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 13:47:57 - P2_obtener id_indicador.0 - Finished processing (I=0, O=0, R=27, W=6, U=0, E=0)
+2025/06/28 13:47:57 - P3_obtener id_autonomia.0 - Finished processing (I=0, O=0, R=26, W=6, U=0, E=0)
+2025/06/28 13:47:57 - P4_obtener id_calendario.0 - Finished processing (I=0, O=0, R=102, W=6, U=0, E=0)
+2025/06/28 13:47:57 - P5_ordenar campos.0 - Finished processing (I=0, O=0, R=6, W=6, U=0, E=0)
+2025/06/28 13:47:57 - P6_L2_INE_ODS_2A1_3.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 13:47:57 - L2_INE_ODS_2A1_3 - Pipeline duration : 0.226 seconds [  0.226" ]
+2025/06/28 13:47:57 - L2_INE_ODS_2A1_3 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:57 - L2_INE - Starting action [L2_INE_ODS_2.A.2.1]
+2025/06/28 13:47:57 - L2_INE_ODS_2.A.2.1 - Using run configuration [local]
+2025/06/28 13:47:57 - L2_INE_ODS_2A2_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:57 - L2_INE_ODS_2A2_1 - Execution started for pipeline [L2_INE_ODS_2A2_1]
+2025/06/28 13:47:57 - P6_L2_INE_ODS_2A2_1.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:57 - autonomias.0 - Finished reading query, closing connection.
+2025/06/28 13:47:57 - calendario.0 - Finished reading query, closing connection.
+2025/06/28 13:47:57 - autonomias.0 - Finished processing (I=20, O=0, R=0, W=20, U=0, E=0)
+2025/06/28 13:47:57 - calendario.0 - Finished processing (I=96, O=0, R=0, W=96, U=0, E=0)
+2025/06/28 13:47:57 - dim_indicadores.0 - Finished reading query, closing connection.
+2025/06/28 13:47:57 - dim_indicadores.0 - Finished processing (I=21, O=0, R=0, W=21, U=0, E=0)
+2025/06/28 13:47:57 - P1_L1_INE_ODS_2A2_1.0 - Finished reading query, closing connection.
+2025/06/28 13:47:57 - P1_L1_INE_ODS_2A2_1.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 13:47:57 - P2_obtener id_indicador.0 - Finished processing (I=0, O=0, R=27, W=6, U=0, E=0)
+2025/06/28 13:47:57 - P3_obtener id_autonomia.0 - Finished processing (I=0, O=0, R=26, W=6, U=0, E=0)
+2025/06/28 13:47:57 - P4_obtener id_calendario.0 - Finished processing (I=0, O=0, R=102, W=6, U=0, E=0)
+2025/06/28 13:47:57 - P5_ordenar campos.0 - Finished processing (I=0, O=0, R=6, W=6, U=0, E=0)
+2025/06/28 13:47:57 - P6_L2_INE_ODS_2A2_1.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 13:47:57 - L2_INE_ODS_2A2_1 - Pipeline duration : 0.229 seconds [  0.229" ]
+2025/06/28 13:47:57 - L2_INE_ODS_2A2_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:57 - L2_INE - Starting action [L2_INE_ODS_2.A.2.2]
+2025/06/28 13:47:57 - L2_INE_ODS_2.A.2.2 - Using run configuration [local]
+2025/06/28 13:47:57 - L2_INE_ODS_2A2_2 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:57 - L2_INE_ODS_2A2_2 - Execution started for pipeline [L2_INE_ODS_2A2_2]
+2025/06/28 13:47:57 - P6_L2_INE_ODS_2A2_2.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:57 - autonomias.0 - Finished reading query, closing connection.
+2025/06/28 13:47:57 - calendario.0 - Finished reading query, closing connection.
+2025/06/28 13:47:57 - autonomias.0 - Finished processing (I=20, O=0, R=0, W=20, U=0, E=0)
+2025/06/28 13:47:57 - calendario.0 - Finished processing (I=96, O=0, R=0, W=96, U=0, E=0)
+2025/06/28 13:47:57 - dim_indicadores.0 - Finished reading query, closing connection.
+2025/06/28 13:47:57 - dim_indicadores.0 - Finished processing (I=21, O=0, R=0, W=21, U=0, E=0)
+2025/06/28 13:47:57 - P1_L1_INE_ODS_2A2_2.0 - Finished reading query, closing connection.
+2025/06/28 13:47:57 - P1_L1_INE_ODS_2A2_2.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 13:47:57 - P2_obtener id_indicador.0 - Finished processing (I=0, O=0, R=27, W=6, U=0, E=0)
+2025/06/28 13:47:57 - P3_obtener id_autonomia.0 - Finished processing (I=0, O=0, R=26, W=6, U=0, E=0)
+2025/06/28 13:47:57 - P4_obtener id_calendario.0 - Finished processing (I=0, O=0, R=102, W=6, U=0, E=0)
+2025/06/28 13:47:57 - P5_ordenar campos.0 - Finished processing (I=0, O=0, R=6, W=6, U=0, E=0)
+2025/06/28 13:47:57 - P6_L2_INE_ODS_2A2_2.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 13:47:57 - L2_INE_ODS_2A2_2 - Pipeline duration : 0.226 seconds [  0.226" ]
+2025/06/28 13:47:57 - L2_INE_ODS_2A2_2 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:57 - L2_INE - Starting action [L2_INE_ODS_2.5.1]
+2025/06/28 13:47:57 - L2_INE_ODS_2.5.1 - Using run configuration [local]
+2025/06/28 13:47:57 - L2_INE_ODS_2_5_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:57 - L2_INE_ODS_2_5_1 - Execution started for pipeline [L2_INE_ODS_2_5_1]
+2025/06/28 13:47:57 - P6_L2_INE_ODS_2_5_1.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:57 - autonomias.0 - Finished reading query, closing connection.
+2025/06/28 13:47:57 - calendario.0 - Finished reading query, closing connection.
+2025/06/28 13:47:57 - autonomias.0 - Finished processing (I=20, O=0, R=0, W=20, U=0, E=0)
+2025/06/28 13:47:57 - dim_indicadores.0 - Finished reading query, closing connection.
+2025/06/28 13:47:57 - calendario.0 - Finished processing (I=96, O=0, R=0, W=96, U=0, E=0)
+2025/06/28 13:47:57 - dim_indicadores.0 - Finished processing (I=21, O=0, R=0, W=21, U=0, E=0)
+2025/06/28 13:47:57 - P1_L1_INE_ODS_2_5_1.0 - Finished reading query, closing connection.
+2025/06/28 13:47:57 - P1_L1_INE_ODS_2_5_1.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 13:47:57 - P2_obtener id_indicador.0 - Finished processing (I=0, O=0, R=27, W=6, U=0, E=0)
+2025/06/28 13:47:57 - P3_obtener id_autonomia.0 - Finished processing (I=0, O=0, R=26, W=6, U=0, E=0)
+2025/06/28 13:47:57 - P4_obtener id_calendario.0 - Finished processing (I=0, O=0, R=102, W=6, U=0, E=0)
+2025/06/28 13:47:57 - P5_ordenar campos.0 - Finished processing (I=0, O=0, R=6, W=6, U=0, E=0)
+2025/06/28 13:47:57 - P6_L2_INE_ODS_2_5_1.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 13:47:57 - L2_INE_ODS_2_5_1 - Pipeline duration : 0.223 seconds [  0.223" ]
+2025/06/28 13:47:57 - L2_INE_ODS_2_5_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:57 - L2_INE - Starting action [L2_INE_ODS_2.4.1]
+2025/06/28 13:47:57 - L2_INE_ODS_2.4.1 - Using run configuration [local]
+2025/06/28 13:47:57 - L2_INE_ODS_2_4_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:57 - L2_INE_ODS_2_4_1 - Execution started for pipeline [L2_INE_ODS_2_4_1]
+2025/06/28 13:47:57 - P6_L2_INE_ODS_2_4_1.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:57 - autonomias.0 - Finished reading query, closing connection.
+2025/06/28 13:47:57 - calendario.0 - Finished reading query, closing connection.
+2025/06/28 13:47:57 - dim_indicadores.0 - Finished reading query, closing connection.
+2025/06/28 13:47:57 - calendario.0 - Finished processing (I=96, O=0, R=0, W=96, U=0, E=0)
+2025/06/28 13:47:57 - dim_indicadores.0 - Finished processing (I=21, O=0, R=0, W=21, U=0, E=0)
+2025/06/28 13:47:57 - autonomias.0 - Finished processing (I=20, O=0, R=0, W=20, U=0, E=0)
+2025/06/28 13:47:57 - P1_L1_INE_ODS_2_4_1.0 - Finished reading query, closing connection.
+2025/06/28 13:47:57 - P1_L1_INE_ODS_2_4_1.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 13:47:58 - P2_obtener id_indicador.0 - Finished processing (I=0, O=0, R=27, W=6, U=0, E=0)
+2025/06/28 13:47:58 - P3_obtener id_autonomia.0 - Finished processing (I=0, O=0, R=26, W=6, U=0, E=0)
+2025/06/28 13:47:58 - P4_obtener id_calendario.0 - Finished processing (I=0, O=0, R=102, W=6, U=0, E=0)
+2025/06/28 13:47:58 - P5_ordenar campos.0 - Finished processing (I=0, O=0, R=6, W=6, U=0, E=0)
+2025/06/28 13:47:58 - P6_L2_INE_ODS_2_4_1.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 13:47:58 - L2_INE_ODS_2_4_1 - Pipeline duration : 0.227 seconds [  0.227" ]
+2025/06/28 13:47:58 - L2_INE_ODS_2_4_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:58 - L2_INE - Starting action [L2_INE_ODS_15.2.1.1 ]
+2025/06/28 13:47:58 - L2_INE_ODS_15.2.1.1  - Using run configuration [local]
+2025/06/28 13:47:58 - L2_INE_ODS_15_2_1_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:58 - L2_INE_ODS_15_2_1_1 - Execution started for pipeline [L2_INE_ODS_15_2_1_1]
+2025/06/28 13:47:58 - P6_L2_INE_ODS_15_2_1_1.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:58 - autonomias.0 - Finished reading query, closing connection.
+2025/06/28 13:47:58 - calendario.0 - Finished reading query, closing connection.
+2025/06/28 13:47:58 - autonomias.0 - Finished processing (I=20, O=0, R=0, W=20, U=0, E=0)
+2025/06/28 13:47:58 - dim_indicadores.0 - Finished reading query, closing connection.
+2025/06/28 13:47:58 - calendario.0 - Finished processing (I=96, O=0, R=0, W=96, U=0, E=0)
+2025/06/28 13:47:58 - dim_indicadores.0 - Finished processing (I=21, O=0, R=0, W=21, U=0, E=0)
+2025/06/28 13:47:58 - P1_L1_INE_ODS_15_2_1_1.0 - Finished reading query, closing connection.
+2025/06/28 13:47:58 - P1_L1_INE_ODS_15_2_1_1.0 - Finished processing (I=5, O=0, R=0, W=5, U=0, E=0)
+2025/06/28 13:47:58 - P2_obtener id_indicador.0 - Finished processing (I=0, O=0, R=26, W=5, U=0, E=0)
+2025/06/28 13:47:58 - P3_obtener id_autonomia.0 - Finished processing (I=0, O=0, R=25, W=5, U=0, E=0)
+2025/06/28 13:47:58 - P4_obtener id_calendario.0 - Finished processing (I=0, O=0, R=101, W=5, U=0, E=0)
+2025/06/28 13:47:58 - P5_ordenar campos.0 - Finished processing (I=0, O=0, R=5, W=5, U=0, E=0)
+2025/06/28 13:47:58 - P6_L2_INE_ODS_15_2_1_1.0 - Finished processing (I=0, O=5, R=5, W=5, U=0, E=0)
+2025/06/28 13:47:58 - L2_INE_ODS_15_2_1_1 - Pipeline duration : 0.218 seconds [  0.218" ]
+2025/06/28 13:47:58 - L2_INE_ODS_15_2_1_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:58 - L2_INE - Starting action [L2_INE_ODS_15.2.1.2]
+2025/06/28 13:47:58 - L2_INE_ODS_15.2.1.2 - Using run configuration [local]
+2025/06/28 13:47:58 - L2_INE_ODS_15_2_1_2 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:58 - L2_INE_ODS_15_2_1_2 - Execution started for pipeline [L2_INE_ODS_15_2_1_2]
+2025/06/28 13:47:58 - P6_L2_INE_ODS_15_2_1_2.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:58 - autonomias.0 - Finished reading query, closing connection.
+2025/06/28 13:47:58 - calendario.0 - Finished reading query, closing connection.
+2025/06/28 13:47:58 - autonomias.0 - Finished processing (I=20, O=0, R=0, W=20, U=0, E=0)
+2025/06/28 13:47:58 - calendario.0 - Finished processing (I=96, O=0, R=0, W=96, U=0, E=0)
+2025/06/28 13:47:58 - dim_indicadores.0 - Finished reading query, closing connection.
+2025/06/28 13:47:58 - P1_L1_INE_ODS_15_2_1_2.0 - Finished reading query, closing connection.
+2025/06/28 13:47:58 - dim_indicadores.0 - Finished processing (I=21, O=0, R=0, W=21, U=0, E=0)
+2025/06/28 13:47:58 - P1_L1_INE_ODS_15_2_1_2.0 - Finished processing (I=5, O=0, R=0, W=5, U=0, E=0)
+2025/06/28 13:47:58 - P2_obtener id_indicador.0 - Finished processing (I=0, O=0, R=26, W=5, U=0, E=0)
+2025/06/28 13:47:58 - P3_obtener id_autonomia.0 - Finished processing (I=0, O=0, R=25, W=5, U=0, E=0)
+2025/06/28 13:47:58 - P4_obtener id_calendario.0 - Finished processing (I=0, O=0, R=101, W=5, U=0, E=0)
+2025/06/28 13:47:58 - P5_ordenar campos.0 - Finished processing (I=0, O=0, R=5, W=5, U=0, E=0)
+2025/06/28 13:47:58 - P6_L2_INE_ODS_15_2_1_2.0 - Finished processing (I=0, O=5, R=5, W=5, U=0, E=0)
+2025/06/28 13:47:58 - L2_INE_ODS_15_2_1_2 - Pipeline duration : 0.233 seconds [  0.233" ]
+2025/06/28 13:47:58 - L2_INE_ODS_15_2_1_2 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:58 - L2_INE - Starting action [L2_INE_ODS_15.6.1.5]
+2025/06/28 13:47:58 - L2_INE_ODS_15.6.1.5 - Using run configuration [local]
+2025/06/28 13:47:58 - L2_INE_ODS_15_6_1_5 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:58 - L2_INE_ODS_15_6_1_5 - Execution started for pipeline [L2_INE_ODS_15_6_1_5]
+2025/06/28 13:47:58 - P6_L2_INE_ODS_15_6_1_5.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:58 - autonomias.0 - Finished reading query, closing connection.
+2025/06/28 13:47:58 - calendario.0 - Finished reading query, closing connection.
+2025/06/28 13:47:58 - autonomias.0 - Finished processing (I=20, O=0, R=0, W=20, U=0, E=0)
+2025/06/28 13:47:58 - calendario.0 - Finished processing (I=96, O=0, R=0, W=96, U=0, E=0)
+2025/06/28 13:47:58 - dim_indicadores.0 - Finished reading query, closing connection.
+2025/06/28 13:47:58 - P1_L1_INE_ODS_15_6_1_5.0 - Finished reading query, closing connection.
+2025/06/28 13:47:58 - dim_indicadores.0 - Finished processing (I=21, O=0, R=0, W=21, U=0, E=0)
+2025/06/28 13:47:58 - P1_L1_INE_ODS_15_6_1_5.0 - Finished processing (I=3, O=0, R=0, W=3, U=0, E=0)
+2025/06/28 13:47:58 - P2_obtener id_indicador.0 - Finished processing (I=0, O=0, R=24, W=3, U=0, E=0)
+2025/06/28 13:47:58 - P3_obtener id_autonomia.0 - Finished processing (I=0, O=0, R=23, W=3, U=0, E=0)
+2025/06/28 13:47:58 - P4_obtener id_calendario.0 - Finished processing (I=0, O=0, R=99, W=3, U=0, E=0)
+2025/06/28 13:47:58 - P5_ordenar campos.0 - Finished processing (I=0, O=0, R=3, W=3, U=0, E=0)
+2025/06/28 13:47:58 - P6_L2_INE_ODS_15_6_1_5.0 - Finished processing (I=0, O=3, R=3, W=3, U=0, E=0)
+2025/06/28 13:47:58 - L2_INE_ODS_15_6_1_5 - Pipeline duration : 0.219 seconds [  0.219" ]
+2025/06/28 13:47:58 - L2_INE_ODS_15_6_1_5 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:58 - L2_INE - Starting action [L2_INE_ODS_15.A.1.1]
+2025/06/28 13:47:58 - L2_INE_ODS_15.A.1.1 - Using run configuration [local]
+2025/06/28 13:47:58 - L2_INE_ODS_15A1_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:58 - L2_INE_ODS_15A1_1 - Execution started for pipeline [L2_INE_ODS_15A1_1]
+2025/06/28 13:47:58 - P6_L2_INE_ODS_15A1_1.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:58 - autonomias.0 - Finished reading query, closing connection.
+2025/06/28 13:47:58 - calendario.0 - Finished reading query, closing connection.
+2025/06/28 13:47:58 - autonomias.0 - Finished processing (I=20, O=0, R=0, W=20, U=0, E=0)
+2025/06/28 13:47:58 - calendario.0 - Finished processing (I=96, O=0, R=0, W=96, U=0, E=0)
+2025/06/28 13:47:58 - dim_indicadores.0 - Finished reading query, closing connection.
+2025/06/28 13:47:58 - dim_indicadores.0 - Finished processing (I=21, O=0, R=0, W=21, U=0, E=0)
+2025/06/28 13:47:58 - P1_L1_INE_ODS_15A1_1.0 - Finished reading query, closing connection.
+2025/06/28 13:47:58 - P1_L1_INE_ODS_15A1_1.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 13:47:59 - P2_obtener id_indicador.0 - Finished processing (I=0, O=0, R=27, W=6, U=0, E=0)
+2025/06/28 13:47:59 - P3_obtener id_autonomia.0 - Finished processing (I=0, O=0, R=26, W=6, U=0, E=0)
+2025/06/28 13:47:59 - P4_obtener id_calendario.0 - Finished processing (I=0, O=0, R=102, W=6, U=0, E=0)
+2025/06/28 13:47:59 - P5_ordenar campos.0 - Finished processing (I=0, O=0, R=6, W=6, U=0, E=0)
+2025/06/28 13:47:59 - P6_L2_INE_ODS_15A1_1.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 13:47:59 - L2_INE_ODS_15A1_1 - Pipeline duration : 0.219 seconds [  0.219" ]
+2025/06/28 13:47:59 - L2_INE_ODS_15A1_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:59 - L2_INE - Starting action [L2_INE_ODS_15.B.1.1]
+2025/06/28 13:47:59 - L2_INE_ODS_15.B.1.1 - Using run configuration [local]
+2025/06/28 13:47:59 - L2_INE_ODS_15B1_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:59 - L2_INE_ODS_15B1_1 - Execution started for pipeline [L2_INE_ODS_15B1_1]
+2025/06/28 13:47:59 - P6_L2_INE_ODS_15B1_1.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:59 - autonomias.0 - Finished reading query, closing connection.
+2025/06/28 13:47:59 - calendario.0 - Finished reading query, closing connection.
+2025/06/28 13:47:59 - autonomias.0 - Finished processing (I=20, O=0, R=0, W=20, U=0, E=0)
+2025/06/28 13:47:59 - dim_indicadores.0 - Finished reading query, closing connection.
+2025/06/28 13:47:59 - calendario.0 - Finished processing (I=96, O=0, R=0, W=96, U=0, E=0)
+2025/06/28 13:47:59 - dim_indicadores.0 - Finished processing (I=21, O=0, R=0, W=21, U=0, E=0)
+2025/06/28 13:47:59 - P1_L1_INE_ODS_15B1_1.0 - Finished reading query, closing connection.
+2025/06/28 13:47:59 - P1_L1_INE_ODS_15B1_1.0 - Finished processing (I=5, O=0, R=0, W=5, U=0, E=0)
+2025/06/28 13:47:59 - P2_obtener id_indicador.0 - Finished processing (I=0, O=0, R=26, W=5, U=0, E=0)
+2025/06/28 13:47:59 - P3_obtener id_autonomia.0 - Finished processing (I=0, O=0, R=25, W=5, U=0, E=0)
+2025/06/28 13:47:59 - P4_obtener id_calendario.0 - Finished processing (I=0, O=0, R=101, W=5, U=0, E=0)
+2025/06/28 13:47:59 - P5_ordenar campos.0 - Finished processing (I=0, O=0, R=5, W=5, U=0, E=0)
+2025/06/28 13:47:59 - P6_L2_INE_ODS_15B1_1.0 - Finished processing (I=0, O=5, R=5, W=5, U=0, E=0)
+2025/06/28 13:47:59 - L2_INE_ODS_15B1_1 - Pipeline duration : 0.222 seconds [  0.222" ]
+2025/06/28 13:47:59 - L2_INE_ODS_15B1_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:59 - L2_INE - Starting action [Fin/Exito]
+2025/06/28 13:47:59 - L2_INE - Finished action [Fin/Exito] (result=[true])
+2025/06/28 13:47:59 - L2_INE - Finished action [L2_INE_ODS_15.B.1.1] (result=[true])
+2025/06/28 13:47:59 - L2_INE - Finished action [L2_INE_ODS_15.A.1.1] (result=[true])
+2025/06/28 13:47:59 - L2_INE - Finished action [L2_INE_ODS_15.6.1.5] (result=[true])
+2025/06/28 13:47:59 - L2_INE - Finished action [L2_INE_ODS_15.2.1.2] (result=[true])
+2025/06/28 13:47:59 - L2_INE - Finished action [L2_INE_ODS_15.2.1.1 ] (result=[true])
+2025/06/28 13:47:59 - L2_INE - Finished action [L2_INE_ODS_2.4.1] (result=[true])
+2025/06/28 13:47:59 - L2_INE - Finished action [L2_INE_ODS_2.5.1] (result=[true])
+2025/06/28 13:47:59 - L2_INE - Finished action [L2_INE_ODS_2.A.2.2] (result=[true])
+2025/06/28 13:47:59 - L2_INE - Finished action [L2_INE_ODS_2.A.2.1] (result=[true])
+2025/06/28 13:47:59 - L2_INE - Finished action [L2_INE_ODS_2.A.1.3] (result=[true])
+2025/06/28 13:47:59 - L2_INE - Finished action [L2_INE_ODS_2.A.1.2] (result=[true])
+2025/06/28 13:47:59 - L2_INE - Finished action [L2_INE_ODS_2.A.1.1] (result=[true])
+2025/06/28 13:47:59 - L2_INE - Finished action [L2_INE_ODS_2.C.1.2] (result=[true])
+2025/06/28 13:47:59 - L2_INE - Finished action [L2_INE_ODS_2.C.1.1] (result=[true])
+2025/06/28 13:47:59 - L2_INE - Finished action [SQLScript crear tablas L2] (result=[true])
+2025/06/28 13:47:59 - L2_INE - Workflow execution finished
+2025/06/28 13:47:59 - L2_INE - Workflow duration : 3.965 seconds [  3.964" ]
+2025/06/28 13:47:59 - MAIN - Starting action [L2_FAO]
+2025/06/28 13:47:59 - L2_FAO - Start of workflow execution
+2025/06/28 13:47:59 - L2_FAO - Starting action [SQLScript crear tablas L2 FAO]
+2025/06/28 13:47:59 - L2_FAO - Starting action [L2_FAO_ODS_2.C.1]
+2025/06/28 13:47:59 - L2_FAO_ODS_2.C.1 - Using run configuration [local]
+2025/06/28 13:47:59 - L2_FAO_ODS_2C1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:59 - L2_FAO_ODS_2C1 - Execution started for pipeline [L2_FAO_ODS_2C1]
+2025/06/28 13:47:59 - P6_L2_FAO_ODS_2C1.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:59 - calendario.0 - Finished reading query, closing connection.
+2025/06/28 13:47:59 - dim_indicadores.0 - Finished reading query, closing connection.
+2025/06/28 13:47:59 - dim_autonomias.0 - Finished reading query, closing connection.
+2025/06/28 13:47:59 - calendario.0 - Finished processing (I=96, O=0, R=0, W=96, U=0, E=0)
+2025/06/28 13:47:59 - dim_indicadores.0 - Finished processing (I=21, O=0, R=0, W=21, U=0, E=0)
+2025/06/28 13:47:59 - dim_autonomias.0 - Finished processing (I=20, O=0, R=0, W=20, U=0, E=0)
+2025/06/28 13:47:59 - P1_L1_FAO_ODS_2C1.0 - Finished reading query, closing connection.
+2025/06/28 13:47:59 - P1_L1_FAO_ODS_2C1.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 13:47:59 - P2_dim_calendario.0 - Finished processing (I=0, O=0, R=102, W=6, U=0, E=0)
+2025/06/28 13:47:59 - P3_obtener id_autonomia.0 - Finished processing (I=0, O=0, R=26, W=6, U=0, E=0)
+2025/06/28 13:47:59 - P4_obtener id_indicador.0 - Finished processing (I=0, O=0, R=27, W=6, U=0, E=0)
+2025/06/28 13:47:59 - P5_Seleccionar y ordenar campos.0 - Finished processing (I=0, O=0, R=6, W=6, U=0, E=0)
+2025/06/28 13:47:59 - P6_L2_FAO_ODS_2C1.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 13:47:59 - L2_FAO_ODS_2C1 - Pipeline duration : 0.219 seconds [  0.219" ]
+2025/06/28 13:47:59 - L2_FAO_ODS_2C1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:59 - L2_FAO - Starting action [L2_FAO_ODS_2.A.1.1]
+2025/06/28 13:47:59 - L2_FAO_ODS_2.A.1.1 - Using run configuration [local]
+2025/06/28 13:47:59 - L2_FAO_ODS_2A1_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:59 - L2_FAO_ODS_2A1_1 - Execution started for pipeline [L2_FAO_ODS_2A1_1]
+2025/06/28 13:47:59 - P6_L2_FAO_ODS_2A1_1.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:59 - autonomias.0 - Finished reading query, closing connection.
+2025/06/28 13:47:59 - calendario.0 - Finished reading query, closing connection.
+2025/06/28 13:47:59 - dim_indicadores.0 - Finished reading query, closing connection.
+2025/06/28 13:47:59 - autonomias.0 - Finished processing (I=20, O=0, R=0, W=20, U=0, E=0)
+2025/06/28 13:47:59 - calendario.0 - Finished processing (I=96, O=0, R=0, W=96, U=0, E=0)
+2025/06/28 13:47:59 - dim_indicadores.0 - Finished processing (I=21, O=0, R=0, W=21, U=0, E=0)
+2025/06/28 13:47:59 - P1_L1_FAO_ODS_2A1_1.0 - Finished reading query, closing connection.
+2025/06/28 13:47:59 - P1_L1_FAO_ODS_2A1_1.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 13:47:59 - P2_obtener id_indicador.0 - Finished processing (I=0, O=0, R=27, W=6, U=0, E=0)
+2025/06/28 13:47:59 - P3_obtener id_autonomia.0 - Finished processing (I=0, O=0, R=26, W=6, U=0, E=0)
+2025/06/28 13:47:59 - P4_obtener id_calendario.0 - Finished processing (I=0, O=0, R=102, W=6, U=0, E=0)
+2025/06/28 13:47:59 - P5_ordenar campos.0 - Finished processing (I=0, O=0, R=6, W=6, U=0, E=0)
+2025/06/28 13:47:59 - P6_L2_FAO_ODS_2A1_1.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 13:47:59 - L2_FAO_ODS_2A1_1 - Pipeline duration : 0.216 seconds [  0.216" ]
+2025/06/28 13:47:59 - L2_FAO_ODS_2A1_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:47:59 - L2_FAO - Starting action [L2_FAO_ODS_2.A.1.2]
+2025/06/28 13:47:59 - L2_FAO_ODS_2.A.1.2 - Using run configuration [local]
+2025/06/28 13:47:59 - L2_FAO_ODS_2A1_2 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:47:59 - L2_FAO_ODS_2A1_2 - Execution started for pipeline [L2_FAO_ODS_2A1_2]
+2025/06/28 13:47:59 - P6_L2_FAO_ODS_2A1_2.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:47:59 - autonomias.0 - Finished reading query, closing connection.
+2025/06/28 13:47:59 - calendario.0 - Finished reading query, closing connection.
+2025/06/28 13:47:59 - calendario.0 - Finished processing (I=96, O=0, R=0, W=96, U=0, E=0)
+2025/06/28 13:47:59 - dim_indicadores.0 - Finished reading query, closing connection.
+2025/06/28 13:47:59 - autonomias.0 - Finished processing (I=20, O=0, R=0, W=20, U=0, E=0)
+2025/06/28 13:47:59 - dim_indicadores.0 - Finished processing (I=21, O=0, R=0, W=21, U=0, E=0)
+2025/06/28 13:47:59 - P1_L1_FAO_ODS_2A1_2.0 - Finished reading query, closing connection.
+2025/06/28 13:47:59 - P1_L1_FAO_ODS_2A1_2.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 13:48:00 - P2_obtener id_indicador.0 - Finished processing (I=0, O=0, R=27, W=6, U=0, E=0)
+2025/06/28 13:48:00 - P3_obtener id_autonomia.0 - Finished processing (I=0, O=0, R=26, W=6, U=0, E=0)
+2025/06/28 13:48:00 - P4_obtener id_calendario.0 - Finished processing (I=0, O=0, R=102, W=6, U=0, E=0)
+2025/06/28 13:48:00 - P5_ordenar campos.0 - Finished processing (I=0, O=0, R=6, W=6, U=0, E=0)
+2025/06/28 13:48:00 - P6_L2_FAO_ODS_2A1_2.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 13:48:00 - L2_FAO_ODS_2A1_2 - Pipeline duration : 0.226 seconds [  0.226" ]
+2025/06/28 13:48:00 - L2_FAO_ODS_2A1_2 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:48:00 - L2_FAO - Starting action [L2_FAO_ODS_2.A.1.3]
+2025/06/28 13:48:00 - L2_FAO_ODS_2.A.1.3 - Using run configuration [local]
+2025/06/28 13:48:00 - L2_FAO_ODS_2A1_3 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:48:00 - L2_FAO_ODS_2A1_3 - Execution started for pipeline [L2_FAO_ODS_2A1_3]
+2025/06/28 13:48:00 - P6_L2_FAO_ODS_2A1_3.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:48:00 - autonomias.0 - Finished reading query, closing connection.
+2025/06/28 13:48:00 - calendario.0 - Finished reading query, closing connection.
+2025/06/28 13:48:00 - dim_indicadores.0 - Finished reading query, closing connection.
+2025/06/28 13:48:00 - autonomias.0 - Finished processing (I=20, O=0, R=0, W=20, U=0, E=0)
+2025/06/28 13:48:00 - calendario.0 - Finished processing (I=96, O=0, R=0, W=96, U=0, E=0)
+2025/06/28 13:48:00 - dim_indicadores.0 - Finished processing (I=21, O=0, R=0, W=21, U=0, E=0)
+2025/06/28 13:48:00 - P1_L1_FAO_ODS_2A1_3.0 - Finished reading query, closing connection.
+2025/06/28 13:48:00 - P1_L1_FAO_ODS_2A1_3.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 13:48:00 - P2_obtener id_indicador.0 - Finished processing (I=0, O=0, R=27, W=6, U=0, E=0)
+2025/06/28 13:48:00 - P3_obtener id_autonomia.0 - Finished processing (I=0, O=0, R=26, W=6, U=0, E=0)
+2025/06/28 13:48:00 - P4_obtener id_calendario.0 - Finished processing (I=0, O=0, R=102, W=6, U=0, E=0)
+2025/06/28 13:48:00 - P5_ordenar campos.0 - Finished processing (I=0, O=0, R=6, W=6, U=0, E=0)
+2025/06/28 13:48:00 - P6_L2_FAO_ODS_2A1_3.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 13:48:00 - L2_FAO_ODS_2A1_3 - Pipeline duration : 0.216 seconds [  0.216" ]
+2025/06/28 13:48:00 - L2_FAO_ODS_2A1_3 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:48:00 - L2_FAO - Starting action [L2_FAO_ODS_2.5.1.A]
+2025/06/28 13:48:00 - L2_FAO_ODS_2.5.1.A - Using run configuration [local]
+2025/06/28 13:48:00 - L2_FAO_ODS_2_5_1_A - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:48:00 - L2_FAO_ODS_2_5_1_A - Execution started for pipeline [L2_FAO_ODS_2_5_1_A]
+2025/06/28 13:48:00 - P6_L2_FAO_ODS_2_5_1_A.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:48:00 - autonomias.0 - Finished reading query, closing connection.
+2025/06/28 13:48:00 - calendario.0 - Finished reading query, closing connection.
+2025/06/28 13:48:00 - dim_indicadores.0 - Finished reading query, closing connection.
+2025/06/28 13:48:00 - P1_L1_FAO_ODS_2_5_1_A.0 - Finished reading query, closing connection.
+2025/06/28 13:48:00 - autonomias.0 - Finished processing (I=20, O=0, R=0, W=20, U=0, E=0)
+2025/06/28 13:48:00 - calendario.0 - Finished processing (I=96, O=0, R=0, W=96, U=0, E=0)
+2025/06/28 13:48:00 - dim_indicadores.0 - Finished processing (I=21, O=0, R=0, W=21, U=0, E=0)
+2025/06/28 13:48:00 - P1_L1_FAO_ODS_2_5_1_A.0 - Finished processing (I=5, O=0, R=0, W=5, U=0, E=0)
+2025/06/28 13:48:00 - P2_obtener id_indicador.0 - Finished processing (I=0, O=0, R=26, W=5, U=0, E=0)
+2025/06/28 13:48:00 - P3_obtener id_autonomia.0 - Finished processing (I=0, O=0, R=25, W=5, U=0, E=0)
+2025/06/28 13:48:00 - P4_obtener id_calendario.0 - Finished processing (I=0, O=0, R=101, W=5, U=0, E=0)
+2025/06/28 13:48:00 - P5_ordenar campos.0 - Finished processing (I=0, O=0, R=5, W=5, U=0, E=0)
+2025/06/28 13:48:00 - P6_L2_FAO_ODS_2_5_1_A.0 - Finished processing (I=0, O=5, R=5, W=5, U=0, E=0)
+2025/06/28 13:48:00 - L2_FAO_ODS_2_5_1_A - Pipeline duration : 0.242 seconds [  0.242" ]
+2025/06/28 13:48:00 - L2_FAO_ODS_2_5_1_A - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:48:00 - L2_FAO - Starting action [L2_FAO_ODS_15.2.1]
+2025/06/28 13:48:00 - L2_FAO_ODS_15.2.1 - Using run configuration [local]
+2025/06/28 13:48:00 - L2_FAO_ODS_15_2_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:48:00 - L2_FAO_ODS_15_2_1 - Execution started for pipeline [L2_FAO_ODS_15_2_1]
+2025/06/28 13:48:00 - P6_L2_FAO_ODS_15_2_1.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:48:00 - autonomias.0 - Finished reading query, closing connection.
+2025/06/28 13:48:00 - calendario.0 - Finished reading query, closing connection.
+2025/06/28 13:48:00 - dim_indicadores.0 - Finished reading query, closing connection.
+2025/06/28 13:48:00 - autonomias.0 - Finished processing (I=20, O=0, R=0, W=20, U=0, E=0)
+2025/06/28 13:48:00 - calendario.0 - Finished processing (I=96, O=0, R=0, W=96, U=0, E=0)
+2025/06/28 13:48:00 - dim_indicadores.0 - Finished processing (I=21, O=0, R=0, W=21, U=0, E=0)
+2025/06/28 13:48:00 - P1_L1_FAO_ODS_15_2_1.0 - Finished reading query, closing connection.
+2025/06/28 13:48:00 - P1_L1_FAO_ODS_15_2_1.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 13:48:00 - P2_obtener id_indicador.0 - Finished processing (I=0, O=0, R=27, W=6, U=0, E=0)
+2025/06/28 13:48:00 - P3_obtener id_autonomia.0 - Finished processing (I=0, O=0, R=26, W=6, U=0, E=0)
+2025/06/28 13:48:00 - P4_obtener id_calendario.0 - Finished processing (I=0, O=0, R=102, W=6, U=0, E=0)
+2025/06/28 13:48:00 - P5_ordenar campos.0 - Finished processing (I=0, O=0, R=6, W=6, U=0, E=0)
+2025/06/28 13:48:00 - P6_L2_FAO_ODS_15_2_1.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 13:48:00 - L2_FAO_ODS_15_2_1 - Pipeline duration : 0.216 seconds [  0.216" ]
+2025/06/28 13:48:00 - L2_FAO_ODS_15_2_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:48:00 - L2_FAO - Starting action [L2_FAO_ODS_15.6.1.5]
+2025/06/28 13:48:00 - L2_FAO_ODS_15.6.1.5 - Using run configuration [local]
+2025/06/28 13:48:00 - L2_FAO_ODS_15_6_1_5 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:48:00 - L2_FAO_ODS_15_6_1_5 - Execution started for pipeline [L2_FAO_ODS_15_6_1_5]
+2025/06/28 13:48:00 - P6_L2_FAO_ODS_15_6_1_5.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:48:00 - autonomias.0 - Finished reading query, closing connection.
+2025/06/28 13:48:00 - calendario.0 - Finished reading query, closing connection.
+2025/06/28 13:48:00 - autonomias.0 - Finished processing (I=20, O=0, R=0, W=20, U=0, E=0)
+2025/06/28 13:48:00 - calendario.0 - Finished processing (I=96, O=0, R=0, W=96, U=0, E=0)
+2025/06/28 13:48:00 - dim_indicadores.0 - Finished reading query, closing connection.
+2025/06/28 13:48:00 - P1_L1_FAO_ODS_15_6_1_5.0 - Finished reading query, closing connection.
+2025/06/28 13:48:00 - dim_indicadores.0 - Finished processing (I=21, O=0, R=0, W=21, U=0, E=0)
+2025/06/28 13:48:00 - P1_L1_FAO_ODS_15_6_1_5.0 - Finished processing (I=7, O=0, R=0, W=7, U=0, E=0)
+2025/06/28 13:48:00 - P2_obtener id_indicador.0 - Finished processing (I=0, O=0, R=28, W=7, U=0, E=0)
+2025/06/28 13:48:00 - P3_obtener id_autonomia.0 - Finished processing (I=0, O=0, R=27, W=7, U=0, E=0)
+2025/06/28 13:48:00 - P4_obtener id_calendario.0 - Finished processing (I=0, O=0, R=103, W=7, U=0, E=0)
+2025/06/28 13:48:00 - P5_ordenar campos.0 - Finished processing (I=0, O=0, R=7, W=7, U=0, E=0)
+2025/06/28 13:48:00 - P6_L2_FAO_ODS_15_6_1_5.0 - Finished processing (I=0, O=7, R=7, W=7, U=0, E=0)
+2025/06/28 13:48:00 - L2_FAO_ODS_15_6_1_5 - Pipeline duration : 0.204 seconds [  0.204" ]
+2025/06/28 13:48:00 - L2_FAO_ODS_15_6_1_5 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:48:00 - L2_FAO - Starting action [Fin/Exito]
+2025/06/28 13:48:00 - L2_FAO - Finished action [Fin/Exito] (result=[true])
+2025/06/28 13:48:00 - L2_FAO - Finished action [L2_FAO_ODS_15.6.1.5] (result=[true])
+2025/06/28 13:48:00 - L2_FAO - Finished action [L2_FAO_ODS_15.2.1] (result=[true])
+2025/06/28 13:48:00 - L2_FAO - Finished action [L2_FAO_ODS_2.5.1.A] (result=[true])
+2025/06/28 13:48:00 - L2_FAO - Finished action [L2_FAO_ODS_2.A.1.3] (result=[true])
+2025/06/28 13:48:00 - L2_FAO - Finished action [L2_FAO_ODS_2.A.1.2] (result=[true])
+2025/06/28 13:48:00 - L2_FAO - Finished action [L2_FAO_ODS_2.A.1.1] (result=[true])
+2025/06/28 13:48:00 - L2_FAO - Finished action [L2_FAO_ODS_2.C.1] (result=[true])
+2025/06/28 13:48:00 - L2_FAO - Finished action [SQLScript crear tablas L2 FAO] (result=[true])
+2025/06/28 13:48:00 - L2_FAO - Workflow execution finished
+2025/06/28 13:48:00 - L2_FAO - Workflow duration : 1.626 seconds [  1.625" ]
+2025/06/28 13:48:00 - MAIN - Starting action [L3_Load]
+2025/06/28 13:48:00 - L3_Load - Start of workflow execution
+2025/06/28 13:48:00 - L3_Load - Starting action [Comprobar conexion a BD]
+2025/06/28 13:48:00 - L3_Load - Starting action [L3_Load_hechos]
+2025/06/28 13:48:00 - L3_Load_hechos - Start of workflow execution
+2025/06/28 13:48:00 - L3_Load_hechos - Starting action [Comprobar conexion a BD]
+2025/06/28 13:48:01 - L3_Load_hechos - Starting action [Table exists hechos_indicadores]
+2025/06/28 13:48:01 - L3_Load_hechos - Starting action [Truncate tabla hechos_indicadores]
+2025/06/28 13:48:01 - L3_Load_hechos - Starting action [Fin/Exito]
+2025/06/28 13:48:01 - L3_Load_hechos - Finished action [Fin/Exito] (result=[true])
+2025/06/28 13:48:01 - L3_Load_hechos - Finished action [Truncate tabla hechos_indicadores] (result=[true])
+2025/06/28 13:48:01 - L3_Load_hechos - Finished action [Table exists hechos_indicadores] (result=[true])
+2025/06/28 13:48:01 - L3_Load_hechos - Finished action [Comprobar conexion a BD] (result=[true])
+2025/06/28 13:48:01 - L3_Load_hechos - Workflow execution finished
+2025/06/28 13:48:01 - L3_Load_hechos - Workflow duration : 0.039 seconds [  0.039" ]
+2025/06/28 13:48:01 - L3_Load - Starting action [L3_Load_hechos_desde_L2_INE]
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Start of workflow execution
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Starting action [Comprobar conexion a BD]
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Starting action [L3_FROM_L2_INE_ODS_2.C.1.1]
+2025/06/28 13:48:01 - L3_FROM_L2_INE_ODS_2.C.1.1 - Using run configuration [local]
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2C1_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2C1_1 - Execution started for pipeline [L3_from_L2_INE_ODS_2C1_1]
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:48:01 - P1_L2_INE_ODS_2C1_1.0 - Finished reading query, closing connection.
+2025/06/28 13:48:01 - P1_L2_INE_ODS_2C1_1.0 - Finished processing (I=1691, O=0, R=0, W=1691, U=0, E=0)
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Finished processing (I=0, O=1691, R=1691, W=1691, U=0, E=0)
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2C1_1 - Pipeline duration : 0.255 seconds [  0.255" ]
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2C1_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Starting action [L3_FROM_L2_INE_ODS_2.C.1.2]
+2025/06/28 13:48:01 - L3_FROM_L2_INE_ODS_2.C.1.2 - Using run configuration [local]
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2C1_2 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2C1_2 - Execution started for pipeline [L3_from_L2_INE_ODS_2C1_2]
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:48:01 - P1_L2_INE_ODS_2C1_2.0 - Finished reading query, closing connection.
+2025/06/28 13:48:01 - P1_L2_INE_ODS_2C1_2.0 - Finished processing (I=96, O=0, R=0, W=96, U=0, E=0)
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Finished processing (I=0, O=96, R=96, W=96, U=0, E=0)
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2C1_2 - Pipeline duration : 0.038 seconds [  0.038" ]
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2C1_2 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Starting action [L3_FROM_L2_INE_ODS_2.A.1.1]
+2025/06/28 13:48:01 - L3_FROM_L2_INE_ODS_2.A.1.1 - Using run configuration [local]
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2A1_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2A1_1 - Execution started for pipeline [L3_from_L2_INE_ODS_2A1_1]
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:48:01 - P1_L2_INE_ODS_2A1_1.0 - Finished reading query, closing connection.
+2025/06/28 13:48:01 - P1_L2_INE_ODS_2A1_1.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2A1_1 - Pipeline duration : 0.026 seconds [  0.026" ]
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2A1_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Starting action [L3_FROM_L2_INE_ODS_2.A.1.2]
+2025/06/28 13:48:01 - L3_FROM_L2_INE_ODS_2.A.1.2 - Using run configuration [local]
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2A1_2 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2A1_2 - Execution started for pipeline [L3_from_L2_INE_ODS_2A1_2]
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:48:01 - P1_L2_INE_ODS_2A1_2.0 - Finished reading query, closing connection.
+2025/06/28 13:48:01 - P1_L2_INE_ODS_2A1_2.0 - Finished processing (I=120, O=0, R=0, W=120, U=0, E=0)
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Finished processing (I=0, O=120, R=120, W=120, U=0, E=0)
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2A1_2 - Pipeline duration : 0.036 seconds [  0.036" ]
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2A1_2 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Starting action [L3_FROM_L2_INE_ODS_2.A.1.3]
+2025/06/28 13:48:01 - L3_FROM_L2_INE_ODS_2.A.1.3 - Using run configuration [local]
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2A1_3 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2A1_3 - Execution started for pipeline [L3_from_L2_INE_ODS_2A1_3]
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:48:01 - P1_L2_INE_ODS_2A1_3.0 - Finished reading query, closing connection.
+2025/06/28 13:48:01 - P1_L2_INE_ODS_2A1_3.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2A1_3 - Pipeline duration : 0.03 seconds [  0.030" ]
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2A1_3 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Starting action [L3_FROM_L2_INE_ODS_2.A.2.1]
+2025/06/28 13:48:01 - L3_FROM_L2_INE_ODS_2.A.2.1 - Using run configuration [local]
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2A2_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2A2_1 - Execution started for pipeline [L3_from_L2_INE_ODS_2A2_1]
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:48:01 - P1_L2_INE_ODS_2A2_1.0 - Finished reading query, closing connection.
+2025/06/28 13:48:01 - P1_L2_INE_ODS_2A2_1.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2A2_1 - Pipeline duration : 0.026 seconds [  0.026" ]
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2A2_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Starting action [L3_FROM_L2_INE_ODS_2.A.2.2]
+2025/06/28 13:48:01 - L3_FROM_L2_INE_ODS_2.A.2.2 - Using run configuration [local]
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2A2_2 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2A2_2 - Execution started for pipeline [L3_from_L2_INE_ODS_2A2_2]
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:48:01 - P1_L2_INE_ODS_2A2_2.0 - Finished reading query, closing connection.
+2025/06/28 13:48:01 - P1_L2_INE_ODS_2A2_2.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2A2_2 - Pipeline duration : 0.026 seconds [  0.026" ]
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2A2_2 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Starting action [L3_FROM_L2_INE_ODS_2.5.1]
+2025/06/28 13:48:01 - L3_FROM_L2_INE_ODS_2.5.1 - Using run configuration [local]
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2_5_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2_5_1 - Execution started for pipeline [L3_from_L2_INE_ODS_2_5_1]
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:48:01 - P1_L2_INE_ODS_2_5_1.0 - Finished reading query, closing connection.
+2025/06/28 13:48:01 - P1_L2_INE_ODS_2_5_1.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2_5_1 - Pipeline duration : 0.026 seconds [  0.026" ]
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2_5_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Starting action [L3_FROM_L2_INE_ODS_2.4.1]
+2025/06/28 13:48:01 - L3_FROM_L2_INE_ODS_2.4.1 - Using run configuration [local]
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2_4_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2_4_1 - Execution started for pipeline [L3_from_L2_INE_ODS_2_4_1]
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:48:01 - P1_L2_INE_ODS_2_4_1.0 - Finished reading query, closing connection.
+2025/06/28 13:48:01 - P1_L2_INE_ODS_2_4_1.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2_4_1 - Pipeline duration : 0.029 seconds [  0.029" ]
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_2_4_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Starting action [L3_FROM_L2_INE_ODS_15.6.1.5]
+2025/06/28 13:48:01 - L3_FROM_L2_INE_ODS_15.6.1.5 - Using run configuration [local]
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_15_6_1_5 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_15_6_1_5 - Execution started for pipeline [L3_from_L2_INE_ODS_15_6_1_5]
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:48:01 - P1_L2_INE_ODS_15_6_1_5.0 - Finished reading query, closing connection.
+2025/06/28 13:48:01 - P1_L2_INE_ODS_15_6_1_5.0 - Finished processing (I=3, O=0, R=0, W=3, U=0, E=0)
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Finished processing (I=0, O=3, R=3, W=3, U=0, E=0)
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_15_6_1_5 - Pipeline duration : 0.025 seconds [  0.025" ]
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_15_6_1_5 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Starting action [L3_FROM_L2_INE_ODS_15.2.1.1]
+2025/06/28 13:48:01 - L3_FROM_L2_INE_ODS_15.2.1.1 - Using run configuration [local]
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_15_2_1_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_15_2_1_1 - Execution started for pipeline [L3_from_L2_INE_ODS_15_2_1_1]
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:48:01 - P1_L2_INE_ODS_15_2_1_1.0 - Finished reading query, closing connection.
+2025/06/28 13:48:01 - P1_L2_INE_ODS_15_2_1_1.0 - Finished processing (I=5, O=0, R=0, W=5, U=0, E=0)
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Finished processing (I=0, O=5, R=5, W=5, U=0, E=0)
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_15_2_1_1 - Pipeline duration : 0.031 seconds [  0.031" ]
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_15_2_1_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Starting action [L3_FROM_L2_INE_ODS_15.2.1.2]
+2025/06/28 13:48:01 - L3_FROM_L2_INE_ODS_15.2.1.2 - Using run configuration [local]
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_15_2_1_2 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_15_2_1_2 - Execution started for pipeline [L3_from_L2_INE_ODS_15_2_1_2]
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:48:01 - P1_L2_INE_ODS_15_2_1_2.0 - Finished reading query, closing connection.
+2025/06/28 13:48:01 - P1_L2_INE_ODS_15_2_1_2.0 - Finished processing (I=5, O=0, R=0, W=5, U=0, E=0)
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Finished processing (I=0, O=5, R=5, W=5, U=0, E=0)
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_15_2_1_2 - Pipeline duration : 0.026 seconds [  0.026" ]
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_15_2_1_2 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Starting action [L3_FROM_L2_INE_ODS_15.A.1.1]
+2025/06/28 13:48:01 - L3_FROM_L2_INE_ODS_15.A.1.1 - Using run configuration [local]
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_15A1_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_15A1_1 - Execution started for pipeline [L3_from_L2_INE_ODS_15A1_1]
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:48:01 - P1_L2_INE_ODS_15A1_1.0 - Finished reading query, closing connection.
+2025/06/28 13:48:01 - P1_L2_INE_ODS_15A1_1.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_15A1_1 - Pipeline duration : 0.034 seconds [  0.034" ]
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_15A1_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Starting action [L3_FROM_L2_INE_ODS_15.B.1.1]
+2025/06/28 13:48:01 - L3_FROM_L2_INE_ODS_15.B.1.1 - Using run configuration [local]
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_15B1_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_15B1_1 - Execution started for pipeline [L3_from_L2_INE_ODS_15B1_1]
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:48:01 - P1_L2_INE_ODS_15B1_1.0 - Finished reading query, closing connection.
+2025/06/28 13:48:01 - P1_L2_INE_ODS_15B1_1.0 - Finished processing (I=5, O=0, R=0, W=5, U=0, E=0)
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Finished processing (I=0, O=5, R=5, W=5, U=0, E=0)
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_15B1_1 - Pipeline duration : 0.027 seconds [  0.027" ]
+2025/06/28 13:48:01 - L3_from_L2_INE_ODS_15B1_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Starting action [Fin/Exito]
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Finished action [Fin/Exito] (result=[true])
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Finished action [L3_FROM_L2_INE_ODS_15.B.1.1] (result=[true])
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Finished action [L3_FROM_L2_INE_ODS_15.A.1.1] (result=[true])
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Finished action [L3_FROM_L2_INE_ODS_15.2.1.2] (result=[true])
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Finished action [L3_FROM_L2_INE_ODS_15.2.1.1] (result=[true])
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Finished action [L3_FROM_L2_INE_ODS_15.6.1.5] (result=[true])
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Finished action [L3_FROM_L2_INE_ODS_2.4.1] (result=[true])
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Finished action [L3_FROM_L2_INE_ODS_2.5.1] (result=[true])
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Finished action [L3_FROM_L2_INE_ODS_2.A.2.2] (result=[true])
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Finished action [L3_FROM_L2_INE_ODS_2.A.2.1] (result=[true])
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Finished action [L3_FROM_L2_INE_ODS_2.A.1.3] (result=[true])
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Finished action [L3_FROM_L2_INE_ODS_2.A.1.2] (result=[true])
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Finished action [L3_FROM_L2_INE_ODS_2.A.1.1] (result=[true])
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Finished action [L3_FROM_L2_INE_ODS_2.C.1.2] (result=[true])
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Finished action [L3_FROM_L2_INE_ODS_2.C.1.1] (result=[true])
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Finished action [Comprobar conexion a BD] (result=[true])
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Workflow execution finished
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_INE - Workflow duration : 0.735 seconds [  0.735" ]
+2025/06/28 13:48:01 - L3_Load - Starting action [L3_Load_hechos_desde_L2_FAO]
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_FAO - Start of workflow execution
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_FAO - Starting action [Comprobar conexion a BD]
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_FAO - Starting action [L3_FROM_L2_FAO_ODS_2.C.1]
+2025/06/28 13:48:01 - L3_FROM_L2_FAO_ODS_2.C.1 - Using run configuration [local]
+2025/06/28 13:48:01 - L3_from_L2_FAO_ODS_2C1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_from_L2_FAO_ODS_2C1 - Execution started for pipeline [L3_from_L2_FAO_ODS_2C1]
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:48:01 - P1_L2_FAO_ODS_2C1.0 - Finished reading query, closing connection.
+2025/06/28 13:48:01 - P1_L2_FAO_ODS_2C1.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 13:48:01 - L3_from_L2_FAO_ODS_2C1 - Pipeline duration : 0.027 seconds [  0.027" ]
+2025/06/28 13:48:01 - L3_from_L2_FAO_ODS_2C1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_FAO - Starting action [L3_FROM_L2_FAO_ODS_2.A.1.1]
+2025/06/28 13:48:01 - L3_FROM_L2_FAO_ODS_2.A.1.1 - Using run configuration [local]
+2025/06/28 13:48:01 - L3_from_L2_FAO_ODS_2A1_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_from_L2_FAO_ODS_2A1_1 - Execution started for pipeline [L3_from_L2_FAO_ODS_2A1_1]
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:48:01 - P1_L2_FAO_ODS_2A1_1.0 - Finished reading query, closing connection.
+2025/06/28 13:48:01 - P1_L2_FAO_ODS_2A1_1.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 13:48:01 - L3_from_L2_FAO_ODS_2A1_1 - Pipeline duration : 0.026 seconds [  0.026" ]
+2025/06/28 13:48:01 - L3_from_L2_FAO_ODS_2A1_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_FAO - Starting action [L3_FROM_L2_FAO_ODS_2.A.1.2]
+2025/06/28 13:48:01 - L3_FROM_L2_FAO_ODS_2.A.1.2 - Using run configuration [local]
+2025/06/28 13:48:01 - L3_from_L2_FAO_ODS_2A1_2 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_from_L2_FAO_ODS_2A1_2 - Execution started for pipeline [L3_from_L2_FAO_ODS_2A1_2]
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:48:01 - P1_L2_FAO_ODS_2A1_2.0 - Finished reading query, closing connection.
+2025/06/28 13:48:01 - P1_L2_FAO_ODS_2A1_2.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 13:48:01 - L3_from_L2_FAO_ODS_2A1_2 - Pipeline duration : 0.027 seconds [  0.027" ]
+2025/06/28 13:48:01 - L3_from_L2_FAO_ODS_2A1_2 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_FAO - Starting action [L3_FROM_L2_FAO_ODS_2.A.1.3]
+2025/06/28 13:48:01 - L3_FROM_L2_FAO_ODS_2.A.1.3 - Using run configuration [local]
+2025/06/28 13:48:01 - L3_from_L2_FAO_ODS_2A1_3 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_from_L2_FAO_ODS_2A1_3 - Execution started for pipeline [L3_from_L2_FAO_ODS_2A1_3]
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:48:01 - P1_L2_FAO_ODS_2A1_3.0 - Finished reading query, closing connection.
+2025/06/28 13:48:01 - P1_L2_FAO_ODS_2A1_3.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 13:48:01 - L3_from_L2_FAO_ODS_2A1_3 - Pipeline duration : 0.036 seconds [  0.036" ]
+2025/06/28 13:48:01 - L3_from_L2_FAO_ODS_2A1_3 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_FAO - Starting action [L3_FROM_L2_FAO_ODS_2.5.1.A]
+2025/06/28 13:48:01 - L3_FROM_L2_FAO_ODS_2.5.1.A - Using run configuration [local]
+2025/06/28 13:48:01 - L3_from_L2_FAO_ODS_2_5_1_A - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_from_L2_FAO_ODS_2_5_1_A - Execution started for pipeline [L3_from_L2_FAO_ODS_2_5_1_A]
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:48:01 - P1_L2_FAO_ODS_2_5_1_A.0 - Finished reading query, closing connection.
+2025/06/28 13:48:01 - P1_L2_FAO_ODS_2_5_1_A.0 - Finished processing (I=5, O=0, R=0, W=5, U=0, E=0)
+2025/06/28 13:48:01 - P2_Cargar en la tabla de hechos.0 - Finished processing (I=0, O=5, R=5, W=5, U=0, E=0)
+2025/06/28 13:48:01 - L3_from_L2_FAO_ODS_2_5_1_A - Pipeline duration : 0.033 seconds [  0.033" ]
+2025/06/28 13:48:01 - L3_from_L2_FAO_ODS_2_5_1_A - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_Load_hechos_from_L2_FAO - Starting action [L3_FROM_L2_FAO_ODS_15.2.1]
+2025/06/28 13:48:01 - L3_FROM_L2_FAO_ODS_15.2.1 - Using run configuration [local]
+2025/06/28 13:48:01 - L3_from_L2_FAO_ODS_15_2_1 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:48:01 - L3_from_L2_FAO_ODS_15_2_1 - Execution started for pipeline [L3_from_L2_FAO_ODS_15_2_1]
+2025/06/28 13:48:02 - P2_Cargar en la tabla de hechos.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:48:02 - P1_L2_FAO_ODS_15_2_1.0 - Finished reading query, closing connection.
+2025/06/28 13:48:02 - P1_L2_FAO_ODS_15_2_1.0 - Finished processing (I=6, O=0, R=0, W=6, U=0, E=0)
+2025/06/28 13:48:02 - P2_Cargar en la tabla de hechos.0 - Finished processing (I=0, O=6, R=6, W=6, U=0, E=0)
+2025/06/28 13:48:02 - L3_from_L2_FAO_ODS_15_2_1 - Pipeline duration : 0.026 seconds [  0.026" ]
+2025/06/28 13:48:02 - L3_from_L2_FAO_ODS_15_2_1 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:48:02 - L3_Load_hechos_from_L2_FAO - Starting action [L3_FROM_L2_FAO_ODS_15.6.1.5]
+2025/06/28 13:48:02 - L3_FROM_L2_FAO_ODS_15.6.1.5 - Using run configuration [local]
+2025/06/28 13:48:02 - L3_from_L2_FAO_ODS_15_6_1_5 - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 13:48:02 - L3_from_L2_FAO_ODS_15_6_1_5 - Execution started for pipeline [L3_from_L2_FAO_ODS_15_6_1_5]
+2025/06/28 13:48:02 - P2_Cargar en la tabla de hechos.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 13:48:02 - P1_L2_FAO_ODS_15_6_1_5.0 - Finished reading query, closing connection.
+2025/06/28 13:48:02 - P1_L2_FAO_ODS_15_6_1_5.0 - Finished processing (I=7, O=0, R=0, W=7, U=0, E=0)
+2025/06/28 13:48:02 - P2_Cargar en la tabla de hechos.0 - Finished processing (I=0, O=7, R=7, W=7, U=0, E=0)
+2025/06/28 13:48:02 - L3_from_L2_FAO_ODS_15_6_1_5 - Pipeline duration : 0.023 seconds [  0.023" ]
+2025/06/28 13:48:02 - L3_from_L2_FAO_ODS_15_6_1_5 - Execution finished on a local pipeline engine with run configuration 'local'
+2025/06/28 13:48:02 - L3_Load_hechos_from_L2_FAO - Starting action [Fin/Exito]
+2025/06/28 13:48:02 - L3_Load_hechos_from_L2_FAO - Finished action [Fin/Exito] (result=[true])
+2025/06/28 13:48:02 - L3_Load_hechos_from_L2_FAO - Finished action [L3_FROM_L2_FAO_ODS_15.6.1.5] (result=[true])
+2025/06/28 13:48:02 - L3_Load_hechos_from_L2_FAO - Finished action [L3_FROM_L2_FAO_ODS_15.2.1] (result=[true])
+2025/06/28 13:48:02 - L3_Load_hechos_from_L2_FAO - Finished action [L3_FROM_L2_FAO_ODS_2.5.1.A] (result=[true])
+2025/06/28 13:48:02 - L3_Load_hechos_from_L2_FAO - Finished action [L3_FROM_L2_FAO_ODS_2.A.1.3] (result=[true])
+2025/06/28 13:48:02 - L3_Load_hechos_from_L2_FAO - Finished action [L3_FROM_L2_FAO_ODS_2.A.1.2] (result=[true])
+2025/06/28 13:48:02 - L3_Load_hechos_from_L2_FAO - Finished action [L3_FROM_L2_FAO_ODS_2.A.1.1] (result=[true])
+2025/06/28 13:48:02 - L3_Load_hechos_from_L2_FAO - Finished action [L3_FROM_L2_FAO_ODS_2.C.1] (result=[true])
+2025/06/28 13:48:02 - L3_Load_hechos_from_L2_FAO - Finished action [Comprobar conexion a BD] (result=[true])
+2025/06/28 13:48:02 - L3_Load_hechos_from_L2_FAO - Workflow execution finished
+2025/06/28 13:48:02 - L3_Load_hechos_from_L2_FAO - Workflow duration : 0.25 seconds [  0.250" ]
+2025/06/28 13:48:02 - L3_Load - Starting action [Fin/Exito]
+2025/06/28 13:48:02 - L3_Load - Finished action [Fin/Exito] (result=[true])
+2025/06/28 13:48:02 - L3_Load - Finished action [L3_Load_hechos_desde_L2_FAO] (result=[true])
+2025/06/28 13:48:02 - L3_Load - Finished action [L3_Load_hechos_desde_L2_INE] (result=[true])
+2025/06/28 13:48:02 - L3_Load - Finished action [L3_Load_hechos] (result=[true])
+2025/06/28 13:48:02 - L3_Load - Finished action [Comprobar conexion a BD] (result=[true])
+2025/06/28 13:48:02 - L3_Load - Workflow execution finished
+2025/06/28 13:48:02 - L3_Load - Workflow duration : 1.067 seconds [  1.066" ]
+2025/06/28 13:48:02 - MAIN - Starting action [Fin/Exito]
+2025/06/28 13:48:02 - MAIN - Finished action [Fin/Exito] (result=[true])
+2025/06/28 13:48:02 - MAIN - Finished action [L3_Load] (result=[true])
+2025/06/28 13:48:02 - MAIN - Finished action [L2_FAO] (result=[true])
+2025/06/28 13:48:02 - MAIN - Finished action [L2_INE] (result=[true])
+2025/06/28 13:48:02 - MAIN - Finished action [Load_dimensiones] (result=[true])
+2025/06/28 13:48:02 - MAIN - Finished action [L1_FAO] (result=[true])
+2025/06/28 13:48:02 - MAIN - Finished action [L1_INE] (result=[true])
+2025/06/28 13:48:02 - MAIN - Finished action [Comprobar conexion a BD] (result=[true])
+2025/06/28 13:48:02 - MAIN - Workflow execution finished
+2025/06/28 13:48:02 - Hop - Workflow execution has ended
+2025/06/28 13:48:02 - MAIN - Workflow duration : 8.923 seconds [  8.923" ]

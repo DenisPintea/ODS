@@ -1,0 +1,150 @@
+2025/06/28 15:11:29 - Hop - Pipeline opened.
+2025/06/28 15:11:29 - Hop - Launching pipeline [L1_ODS_2C1_2]...
+2025/06/28 15:11:29 - Hop - Started the pipeline execution.
+2025/06/28 15:12:28 - General - Reading 2 transforms...
+2025/06/28 15:12:28 - General - We have 1 hops...
+2025/06/28 15:12:28 - General - nr of transforms read : 2
+2025/06/28 15:12:28 - General - nr of hops  read : 1
+2025/06/28 15:12:28 - General - Reading 2 transforms...
+2025/06/28 15:12:28 - General - We have 1 hops...
+2025/06/28 15:12:28 - General - nr of transforms read : 2
+2025/06/28 15:12:28 - General - nr of hops  read : 1
+2025/06/28 15:12:31 - Hop - Pipeline opened.
+2025/06/28 15:12:31 - Hop - Launching pipeline [L1_ODS_2A_1_1]...
+2025/06/28 15:12:31 - Hop - Started the pipeline execution.
+2025/06/28 15:13:42 - General - Reading 3 transforms...
+2025/06/28 15:13:42 - General - We have 2 hops...
+2025/06/28 15:13:42 - General - nr of transforms read : 3
+2025/06/28 15:13:42 - General - nr of hops  read : 2
+2025/06/28 15:13:42 - General - Reading 3 transforms...
+2025/06/28 15:13:42 - General - We have 2 hops...
+2025/06/28 15:13:42 - General - nr of transforms read : 3
+2025/06/28 15:13:42 - General - nr of hops  read : 2
+2025/06/28 15:13:44 - Hop - Pipeline opened.
+2025/06/28 15:13:44 - Hop - Launching pipeline [L1_ODS_2A_1_2]...
+2025/06/28 15:13:44 - Hop - Started the pipeline execution.
+2025/06/28 15:14:58 - General - Reading 2 transforms...
+2025/06/28 15:14:58 - General - We have 1 hops...
+2025/06/28 15:14:58 - General - nr of transforms read : 2
+2025/06/28 15:14:58 - General - nr of hops  read : 1
+2025/06/28 15:14:58 - General - Reading 2 transforms...
+2025/06/28 15:14:58 - General - We have 1 hops...
+2025/06/28 15:14:58 - General - nr of transforms read : 2
+2025/06/28 15:14:58 - General - nr of hops  read : 1
+2025/06/28 15:15:01 - Hop - Pipeline opened.
+2025/06/28 15:15:01 - Hop - Launching pipeline [L1_ODS_2A_1_3]...
+2025/06/28 15:15:01 - Hop - Started the pipeline execution.
+2025/06/28 15:15:22 - General - Reading 2 transforms...
+2025/06/28 15:15:22 - General - We have 1 hops...
+2025/06/28 15:15:22 - General - nr of transforms read : 2
+2025/06/28 15:15:22 - General - nr of hops  read : 1
+2025/06/28 15:15:22 - General - Reading 2 transforms...
+2025/06/28 15:15:22 - General - We have 1 hops...
+2025/06/28 15:15:22 - General - nr of transforms read : 2
+2025/06/28 15:15:22 - General - nr of hops  read : 1
+2025/06/28 15:16:57 - General - Reading 2 transforms...
+2025/06/28 15:16:57 - General - We have 1 hops...
+2025/06/28 15:16:57 - General - nr of transforms read : 2
+2025/06/28 15:16:57 - General - nr of hops  read : 1
+2025/06/28 15:16:57 - General - Reading 2 transforms...
+2025/06/28 15:16:57 - General - We have 1 hops...
+2025/06/28 15:16:57 - General - nr of transforms read : 2
+2025/06/28 15:16:57 - General - nr of hops  read : 1
+2025/06/28 15:17:04 - Hop - Pipeline opened.
+2025/06/28 15:17:04 - Hop - Launching pipeline [L1_ODS_2A_2_AOD_NETO]...
+2025/06/28 15:17:04 - Hop - Started the pipeline execution.
+2025/06/28 15:17:04 - L1_ODS_2A_2_AOD_NETO - nr of transforms to run : 2  , nr of hops : 1
+2025/06/28 15:17:04 - L1_ODS_2A_2_AOD_NETO - Executing this pipeline using the Local Pipeline Engine with run configuration 'local'
+2025/06/28 15:17:04 - L1_ODS_2A_2_AOD_NETO - Not running a unit test...
+2025/06/28 15:17:04 - L1_ODS_2A_2_AOD_NETO - Execution started for pipeline [L1_ODS_2A_2_AOD_NETO]
+2025/06/28 15:17:04 - L1_ODS_2A_2_AOD_NETO - I found 2 different transforms to launch.
+2025/06/28 15:17:04 - L1_ODS_2A_2_AOD_NETO - Allocating rowsets...
+2025/06/28 15:17:04 - L1_ODS_2A_2_AOD_NETO -  Allocating rowsets for transform 0 --> P1_CargarExcel_2.A.2.2
+2025/06/28 15:17:04 - L1_ODS_2A_2_AOD_NETO -   prevcopies = 1, nextcopies=1
+2025/06/28 15:17:04 - L1_ODS_2A_2_AOD_NETO - Pipeline allocated new rowset [P1_CargarExcel_2.A.2.2.0 - P2_L1_ODS_2.A.2_AOD_NETO.0]
+2025/06/28 15:17:04 - L1_ODS_2A_2_AOD_NETO -  Allocated 1 rowsets for transform 0 --> P1_CargarExcel_2.A.2.2
+2025/06/28 15:17:04 - L1_ODS_2A_2_AOD_NETO -  Allocating rowsets for transform 1 --> P2_L1_ODS_2.A.2_AOD_NETO
+2025/06/28 15:17:04 - L1_ODS_2A_2_AOD_NETO -  Allocated 1 rowsets for transform 1 --> P2_L1_ODS_2.A.2_AOD_NETO
+2025/06/28 15:17:04 - L1_ODS_2A_2_AOD_NETO - Allocating Transforms & TransformData...
+2025/06/28 15:17:04 - L1_ODS_2A_2_AOD_NETO -  Pipeline is about to allocate transform [P1_CargarExcel_2.A.2.2] of type [ExcelInput]
+2025/06/28 15:17:04 - L1_ODS_2A_2_AOD_NETO -   Transform has nrcopies=1
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Starting allocation of buffers & new threads...
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Transform info: nrinput=0 nroutput=1
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - output rel. is 1:1
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Found output rowset [P1_CargarExcel_2.A.2.2.0 - P2_L1_ODS_2.A.2_AOD_NETO.0]
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Finished dispatching
+2025/06/28 15:17:04 - L1_ODS_2A_2_AOD_NETO -  Pipeline has allocated a new transform: [P1_CargarExcel_2.A.2.2].0
+2025/06/28 15:17:04 - L1_ODS_2A_2_AOD_NETO -  Pipeline is about to allocate transform [P2_L1_ODS_2.A.2_AOD_NETO] of type [TableOutput]
+2025/06/28 15:17:04 - L1_ODS_2A_2_AOD_NETO -   Transform has nrcopies=1
+2025/06/28 15:17:04 - P2_L1_ODS_2.A.2_AOD_NETO.0 - Starting allocation of buffers & new threads...
+2025/06/28 15:17:04 - P2_L1_ODS_2.A.2_AOD_NETO.0 - Transform info: nrinput=1 nroutput=0
+2025/06/28 15:17:04 - P2_L1_ODS_2.A.2_AOD_NETO.0 - Got previous transform from [P2_L1_ODS_2.A.2_AOD_NETO] #0 --> P1_CargarExcel_2.A.2.2
+2025/06/28 15:17:04 - P2_L1_ODS_2.A.2_AOD_NETO.0 - input rel is 1:1
+2025/06/28 15:17:04 - P2_L1_ODS_2.A.2_AOD_NETO.0 - Found input rowset [P1_CargarExcel_2.A.2.2.0 - P2_L1_ODS_2.A.2_AOD_NETO.0]
+2025/06/28 15:17:04 - P2_L1_ODS_2.A.2_AOD_NETO.0 - Finished dispatching
+2025/06/28 15:17:04 - L1_ODS_2A_2_AOD_NETO -  Pipeline has allocated a new transform: [P2_L1_ODS_2.A.2_AOD_NETO].0
+2025/06/28 15:17:04 - L1_ODS_2A_2_AOD_NETO - Initialising 2 transforms...
+2025/06/28 15:17:04 - SQL_SERVER - New database connection defined
+2025/06/28 15:17:04 - SQL_SERVER - Connecting to database using URL: jdbc:sqlserver://localhost:1433;databaseName=ods_tfg;integratedSecurity=true;encrypt=false
+2025/06/28 15:17:04 - P2_L1_ODS_2.A.2_AOD_NETO.0 - Connected to database [SQL_SERVER] (commit=1000)
+2025/06/28 15:17:04 - SQL_SERVER - Auto commit off
+2025/06/28 15:17:04 - L1_ODS_2A_2_AOD_NETO - Transform [P1_CargarExcel_2.A.2.2.0] initialized flawlessly.
+2025/06/28 15:17:04 - L1_ODS_2A_2_AOD_NETO - Transform [P2_L1_ODS_2.A.2_AOD_NETO.0] initialized flawlessly.
+2025/06/28 15:17:04 - L1_ODS_2A_2_AOD_NETO - Data Set enabled? false
+2025/06/28 15:17:04 - L1_ODS_2A_2_AOD_NETO - Pipeline has allocated 2 threads and 1 rowsets.
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Starting to run...
+2025/06/28 15:17:04 - P2_L1_ODS_2.A.2_AOD_NETO.0 - Starting to run...
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Opening openFile #0 : D:\hop_projects\entorno-dev\L1_STAGE\Datasets_L1_INE\SDG_2A2_AOD_NETO.xlsx
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Get sheet #0.0
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Get line #2 from sheet #0.0
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Read line with 2 cells
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Converted line to row #2 : [2023], [77.37]
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Get sheet #0.0
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Get line #3 from sheet #0.0
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Read line with 2 cells
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Converted line to row #3 : [2022], [102.92]
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Get sheet #0.0
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Get line #4 from sheet #0.0
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Read line with 2 cells
+2025/06/28 15:17:04 - P2_L1_ODS_2.A.2_AOD_NETO.0 - Prepared statement : INSERT INTO [L1].L1_INE_ODS_2A2_2 (Año, Valor) VALUES ( ?,  ?)
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Converted line to row #4 : [2021], [74.25]
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Get sheet #0.0
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Get line #5 from sheet #0.0
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Read line with 2 cells
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Converted line to row #5 : [2020], [61.59]
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Get sheet #0.0
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Get line #6 from sheet #0.0
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Read line with 2 cells
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Converted line to row #6 : [2019], [55.0]
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Get sheet #0.0
+2025/06/28 15:17:04 - P2_L1_ODS_2.A.2_AOD_NETO.0 - Written row: [2023], [77.37]
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Get line #7 from sheet #0.0
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Read line with 2 cells
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Converted line to row #7 : [2018], [62.66]
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Get sheet #0.0
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Get line #8 from sheet #0.0
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Read line with 2 cells
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Converted line to row #8 : [2017], [56.01]
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Get sheet #0.0
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Get line #9 from sheet #0.0
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Read line with 2 cells
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Converted line to row #9 : [2016], [39.28]
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Get sheet #0.0
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Out of index error: move to next sheet!
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - No more files to be processed! (1 files done)
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Signaling 'output done' to 1 output rowsets.
+2025/06/28 15:17:04 - P1_CargarExcel_2.A.2.2.0 - Finished processing (I=8, O=0, R=0, W=8, U=0, E=0)
+2025/06/28 15:17:04 - P2_L1_ODS_2.A.2_AOD_NETO.0 - Written row: [2022], [102.92]
+2025/06/28 15:17:04 - P2_L1_ODS_2.A.2_AOD_NETO.0 - Written row: [2021], [74.25]
+2025/06/28 15:17:04 - P2_L1_ODS_2.A.2_AOD_NETO.0 - Written row: [2020], [61.59]
+2025/06/28 15:17:04 - P2_L1_ODS_2.A.2_AOD_NETO.0 - Written row: [2019], [55.0]
+2025/06/28 15:17:04 - P2_L1_ODS_2.A.2_AOD_NETO.0 - Written row: [2018], [62.66]
+2025/06/28 15:17:04 - P2_L1_ODS_2.A.2_AOD_NETO.0 - Written row: [2017], [56.01]
+2025/06/28 15:17:04 - P2_L1_ODS_2.A.2_AOD_NETO.0 - Written row: [2016], [39.28]
+2025/06/28 15:17:04 - SQL_SERVER - Commit on database connection [SQL_SERVER]
+2025/06/28 15:17:04 - P2_L1_ODS_2.A.2_AOD_NETO.0 - Signaling 'output done' to 0 output rowsets.
+2025/06/28 15:17:04 - SQL_SERVER - Commit on database connection [SQL_SERVER]
+2025/06/28 15:17:04 - SQL_SERVER - Connection to database closed!
+2025/06/28 15:17:04 - P2_L1_ODS_2.A.2_AOD_NETO.0 - Finished processing (I=0, O=8, R=8, W=8, U=0, E=0)
+2025/06/28 15:17:04 - L1_ODS_2A_2_AOD_NETO - Pipeline duration : 0.08 seconds [  0.080" ]
+2025/06/28 15:17:04 - L1_ODS_2A_2_AOD_NETO - Execution finished on a local pipeline engine with run configuration 'local'
